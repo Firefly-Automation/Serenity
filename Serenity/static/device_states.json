@@ -1,0 +1,23 @@
+{
+  "devices": {
+    "zwave-node-9" : {
+      "state" : true
+    },
+    "zwave-node-10" : {
+      "state":false
+    },
+    "zwave-node-11" : {
+      "state" : true
+    },
+    "zwave-node-12" : {
+      "state" : false
+    },
+    "nest" : {
+      "current" : 76,
+      "target" : 74
+    },
+    "hue1" : {
+      "value"  : 20
+    }
+  }
+}

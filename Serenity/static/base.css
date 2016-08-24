@@ -1,0 +1,60 @@
+/*
+* @Author: zpriddy
+* @Date:   2016-08-19 21:17:54
+* @Last Modified by:   zpriddy
+* @Last Modified time: 2016-08-23 21:53:13
+*/
+$gray: #eee;
+
+
+
+md-content.md-default-theme {
+  background-color: $gray;
+}
+md-card {
+  background-color: #fff;
+  padding: :10px;
+  h2:first-of-type {
+    margin-top: 10;
+    
+  }
+}
+md-toolbar {
+  .md-button.md-default-theme {
+    border-radius: 99%; // round toolbar buttons
+  }
+}
+h2 {
+  font-weight: 400;
+}
+.md-toolbar-tools-bottom {
+  font-size: small;
+  & :last-child {
+    opacity: 0.8;
+  }
+}
+md-toolbar:not(.md-hue-1),
+.md-fab {
+  fill: #fff;
+}
+md-sidenav {
+  fill: #737373;
+  ng-md-icon {
+    position: relative;
+    top: 5px; // adjust for svg viewbox
+  }
+}
+.user-avatar {
+  border-radius: 99%;
+}
+
+md-tabs.md-default-theme .md-paginator md-icon {
+    color: rgb(255,110,64) !important;
+}
+
+
+device-card { 
+  height: 40px;
+  padding-right: 10px;
+  padding-left: 10px;
+ }

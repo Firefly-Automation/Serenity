@@ -1,0 +1,115 @@
+
+{% raw %}
+  <ui-view layout="column" flex=100 >
+  <md-tabs md-stretch-tabs="always" class="md-primary" md-selected="data.selectedIndex">
+  
+  <md-tab id={{$index}}-tab aria-controls={{$index}}-tab ng-repeat="type in deviceTypes" ng-click='data.selectedIndex = type.index' >
+  {{type.title}}
+  </md-tab>
+  
+  </md-tabs>
+  <div class="inset" hide-sm></div>
+  <ng-switch on="data.selectedIndex" class="tabpanel-container" class="md-padding" layout-padding>
+  
+  <!-- This part needs to be dont in Python -->
+  <div role="tabpanel"
+    id="all-content"
+    ng-switch-when=0
+    md-swipe-left="next()"
+    md-swipe-right="previous()"
+    layout="row"
+    flex
+    layout-wrap
+    
+    class='md-padding'>
+    
+    
+    <div class='md-padding row-height' layout-wrap ng-repeat="item in devices |  filter:search  | orderBy: 'name'" bind-html-compile="item.card" flex-sm=100 flex-md=50 flex=33>
+    </div>
+    
+  </div>
+  
+  <div role="tabpanel"
+    id="light-content"
+    ng-switch-when=1
+    md-swipe-left="next()"
+    md-swipe-right="previous()"
+    layout="row"
+    flex
+    layout-wrap
+    
+    class='md-padding'
+    ng-controller="DeviceCtrl">
+    
+    
+    <div class='md-padding row-height' layout-wrap ng-repeat="item in devices | filter:{'type' : 'light'} | filter:search  | orderBy: 'name'" bind-html-compile="item.card" flex-sm=100 flex-md=50 flex=33>
+    </div>
+    
+    
+    
+  </div>
+  <div role="tabpanel"
+    id="switch-content"
+    ng-switch-when=2
+    md-swipe-left="next()"
+    md-swipe-right="previous()"
+    layout="row"
+    flex
+    layout-wrap
+    
+    class='md-padding'
+    ng-controller="DeviceCtrl">
+    
+    
+    <div class='md-padding row-height' layout-wrap ng-repeat="item in devices | filter:{'type' : 'switch'} | filter:search  | orderBy: 'name'" bind-html-compile="item.card" flex-sm=100 flex-md=50 flex=33>
+    </div>
+    
+    
+    
+  </div>
+  <div role="tabpanel"
+    id="thermostat-content"
+    ng-switch-when=3
+    md-swipe-left="next()"
+    md-swipe-right="previous()"
+    layout="row"
+    flex
+    layout-wrap
+    
+    class='md-padding'
+    ng-controller="DeviceCtrl">
+    
+    
+    <div class='md-padding row-height' layout-wrap ng-repeat="item in devices | filter:{'type' : 'thermostat'} | filter:search  | orderBy: 'name'" bind-html-compile="item.card" flex-sm=100 flex-md=50 flex=33>
+    </div>
+    
+    
+    
+  </div>
+  <div role="tabpanel"
+    id="dimmer-content"
+    ng-switch-when=4
+    md-swipe-left="next()"
+    md-swipe-right="previous()"
+    layout="row"
+    flex
+    layout-wrap
+    
+    class='md-padding'
+    ng-controller="DeviceCtrl">
+    
+    
+    <div class='md-padding row-height' layout-wrap ng-repeat="item in devices | filter:{'type' : 'dimmer'} | filter:search  | orderBy: 'name'" bind-html-compile="item.card" flex-sm=100 flex-md=50 flex=33>
+    </div>
+    
+    
+    
+  </div>
+  
+  <!-- This part needs to be dont in Python -->
+  
+  
+  </ng-switch>
+  
+  </ui-view>
+  {% endraw %}

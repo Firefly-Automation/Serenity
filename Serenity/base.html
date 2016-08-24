@@ -1,0 +1,85 @@
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Angular Material style sheet -->
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-sanitize.min.js"></script>
+    <!-- Angular Material Library -->
+    <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+    <script language="javascript">
+    angular
+        .module('firstApplication', ['ngMaterial'])
+        .controller('sideNavController', sideNavController);
+
+    function sideNavController($scope, $mdSidenav) {
+        $scope.openLeftMenu = function() {
+            $mdSidenav('left').toggle();
+        };
+        $scope.openRightMenu = function() {
+            $mdSidenav('right').toggle();
+        };
+    }
+    </script>
+</head>
+
+<body ng-app="firstApplication">
+    <div id="sideNavContainer" ng-controller="sideNavController as ctrl" ng-cloak="" flex=""  layout="column">
+        <section layout="row" ng-cloak="" layout-align="top center"layput="columen">
+            <md-menu-bar ng-style="{background:'grey', color:'white', width:'100%'}" flex="" layout="columen">
+                <md-button ng-click="openLeftMenu()" class="md-icon-button">
+                    <md-icon style="line-height: 2"> menu </md-icon>
+                </md-button>
+                <h1 class="md-toolbar-tools" layout-align="center center">Firefly</h1>
+                <md-button ng-click="openRightMenu()" class="md-icon-button">
+                    <md-icon style="line-height: 2"> more_vert </md-icon>
+                </md-button>
+            </md-menu-bar>
+        </section>
+        <section layout="row" flex="">
+            <md-sidenav md-component-id="left" class="md-sidenav-left" md-is-locked-open="$mdMedia('gt-lg')" md-whiteframe="4" style="height: 100%">
+                <md-toolbar class="md-theme-indigo" ng-style="{background:'grey'}">
+                    <h1 class="md-toolbar-tools">Menu</h1>
+                </md-toolbar>
+                <md-menu>
+                    <md-menu-content>
+                        <md-menu-item>
+                            <md-button href="#">Dashboard</md-button>
+                        </md-menu-item>
+                        <md-menu-item>
+                            <md-button href="#">Devices</md-button>
+                        </md-menu-item>
+                    </md-menu-content>
+                </md-menu>
+
+            </md-sidenav>
+            <md-sidenav md-component-id="right" class="md-sidenav-right" md-whiteframe="4">
+              <md-toolbar class="md-theme-indigo" ng-style="{background:'grey'}">
+                    <h1 class="md-toolbar-tools">More</h1>
+                </md-toolbar>
+                <md-menu>
+                    <md-menu-content>
+                        <md-menu-item>
+                            <md-button href="https://github.com/zpriddy/Firefly">Firefly on Github</md-button>
+                        </md-menu-item>
+                        <md-menu-item>
+                            <md-button href="https://zpriddy.com">Zachary Priddy</md-button>
+                        </md-menu-item>
+                    </md-menu-content>
+                </md-menu>
+            </md-sidenav>
+        
+        <md-content  flex="" layout-padding="">
+            THIS IS MY CONTENT
+        </md-content>
+
+        </section>
+    </div>
+</body>
+
+</html>

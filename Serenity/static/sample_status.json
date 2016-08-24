@@ -1,0 +1,1263 @@
+{
+  "devices": {
+    "02a0d3f1-6dd1-4e71-8106-455ecc0ba3b3": {
+      "ct": 2700,
+      "deviceID": "02a0d3f1-6dd1-4e71-8106-455ecc0ba3b3",
+      "hue": 0.0,
+      "level": 100,
+      "on": true,
+      "sat": 0.0,
+      "views": {
+        "dash_view": {
+          "request": "on",
+          "switch": {
+            "false": {
+              "click": "true",
+              "color": "grey",
+              "command": {
+                "switch": "on"
+              },
+              "text": "Off"
+            },
+            "true": {
+              "click": "false",
+              "color": "green lighten-1",
+              "command": {
+                "switch": "off"
+              },
+              "default": true,
+              "text": "On"
+            }
+          },
+          "type": "switch"
+        },
+        "display": true,
+        "id": "02a0d3f1-6dd1-4e71-8106-455ecc0ba3b3",
+        "name": "LIFX Floating2",
+        "type": "lights"
+      }
+    },
+    "02c67179-c79c-4164-b86d-5c213c501a3b": {
+      "ct": 2700,
+      "deviceID": "02c67179-c79c-4164-b86d-5c213c501a3b",
+      "hue": 0.0,
+      "level": 100,
+      "on": true,
+      "sat": 0.0,
+      "views": {
+        "dash_view": {
+          "request": "on",
+          "switch": {
+            "false": {
+              "click": "true",
+              "color": "grey",
+              "command": {
+                "switch": "on"
+              },
+              "text": "Off"
+            },
+            "true": {
+              "click": "false",
+              "color": "green lighten-1",
+              "command": {
+                "switch": "off"
+              },
+              "default": true,
+              "text": "On"
+            }
+          },
+          "type": "switch"
+        },
+        "display": true,
+        "id": "02c67179-c79c-4164-b86d-5c213c501a3b",
+        "name": "LIFX Floating1",
+        "type": "lights"
+      }
+    },
+    "ArielPresence": {
+      "deviceID": "ArielPresence",
+      "presence": true,
+      "views": {
+        "dash_view": {
+          "request": "presence",
+          "text": {
+            "false": {
+              "click": "true",
+              "color": "grey",
+              "command": {
+                "presence": true
+              },
+              "text": "Away"
+            },
+            "true": {
+              "click": "false",
+              "color": "green",
+              "command": {
+                "presence": false
+              },
+              "default": true,
+              "text": "Present"
+            }
+          },
+          "type": "text"
+        },
+        "display": true,
+        "id": "ArielPresence",
+        "name": "Ariel Presence",
+        "type": "presence"
+      }
+    },
+    "TV": {
+      "deviceID": "TV",
+      "status": false,
+      "views": {
+        "dash_view": {
+          "button": {
+            "color": "orange",
+            "command": {
+              "cmd": "POWER"
+            },
+            "text": "Off"
+          },
+          "request": "status",
+          "type": "button"
+        },
+        "display": true,
+        "id": "TV",
+        "name": "LG TV",
+        "type": "Entertainment"
+      }
+    },
+    "ZachPresence": {
+      "deviceID": "ZachPresence",
+      "presence": true,
+      "views": {
+        "dash_view": {
+          "request": "presence",
+          "text": {
+            "false": {
+              "click": "true",
+              "color": "grey",
+              "command": {
+                "presence": true
+              },
+              "text": "Away"
+            },
+            "true": {
+              "click": "false",
+              "color": "green",
+              "command": {
+                "presence": false
+              },
+              "default": true,
+              "text": "Present"
+            }
+          },
+          "type": "text"
+        },
+        "display": true,
+        "id": "ZachPresence",
+        "name": "Zach Presence",
+        "type": "presence"
+      }
+    },
+    "ZachPushover": {
+      "deviceID": "ZachPushover",
+      "views": {}
+    },
+    "hue": {
+      "deviceID": "hue"
+    },
+    "hue-group-1": {
+      "bri": 139,
+      "ct": 0,
+      "deviceID": "hue-group-1",
+      "hue": 0,
+      "level": 55,
+      "on": true,
+      "sat": 0,
+      "type": "Room",
+      "views": {
+        "dash_view": {
+          "request": "on",
+          "switch": {
+            "false": {
+              "command": {
+                "switch": "off"
+              },
+              "text": "Off"
+            },
+            "true": {
+              "command": {
+                "switch": "on"
+              },
+              "default": true,
+              "text": "On"
+            }
+          },
+          "type": "switch"
+        },
+        "display": true,
+        "id": "hue-group-1",
+        "name": "Other",
+        "type": "lights"
+      },
+      "xy": [
+        0.1724,
+        0.7468
+      ]
+    },
+    "hue-group-10": {
+      "bri": 254,
+      "ct": 176,
+      "deviceID": "hue-group-10",
+      "hue": 34310,
+      "level": 100,
+      "on": false,
+      "sat": 190,
+      "type": "LightGroup",
+      "views": {
+        "dash_view": {
+          "request": "on",
+          "switch": {
+            "false": {
+              "command": {
+                "switch": "off"
+              },
+              "text": "Off"
+            },
+            "true": {
+              "command": {
+                "switch": "on"
+              },
+              "default": true,
+              "text": "On"
+            }
+          },
+          "type": "switch"
+        },
+        "display": true,
+        "id": "hue-group-10",
+        "name": "Upstairs Hue",
+        "type": "lights"
+      },
+      "xy": [
+        0.3285,
+        0.3376
+      ]
+    },
+    "hue-group-2": {
+      "bri": 254,
+      "ct": 176,
+      "deviceID": "hue-group-2",
+      "hue": 41804,
+      "level": 100,
+      "on": true,
+      "sat": 59,
+      "type": "LightGroup",
+      "views": {
+        "dash_view": {
+          "request": "on",
+          "switch": {
+            "false": {
+              "command": {
+                "switch": "off"
+              },
+              "text": "Off"
+            },
+            "true": {
+              "command": {
+                "switch": "on"
+              },
+              "default": true,
+              "text": "On"
+            }
+          },
+          "type": "switch"
+        },
+        "display": true,
+        "id": "hue-group-2",
+        "name": "Light Strip",
+        "type": "lights"
+      },
+      "xy": [
+        0.3286,
+        0.3377
+      ]
+    },
+    "hue-group-3": {
+      "bri": 254,
+      "ct": 176,
+      "deviceID": "hue-group-3",
+      "hue": 34310,
+      "level": 100,
+      "on": false,
+      "sat": 190,
+      "type": "LightGroup",
+      "views": {
+        "dash_view": {
+          "request": "on",
+          "switch": {
+            "false": {
+              "command": {
+                "switch": "off"
+              },
+              "text": "Off"
+            },
+            "true": {
+              "command": {
+                "switch": "on"
+              },
+              "default": true,
+              "text": "On"
+            }
+          },
+          "type": "switch"
+        },
+        "display": true,
+        "id": "hue-group-3",
+        "name": "All Hue",
+        "type": "lights"
+      },
+      "xy": [
+        0.3285,
+        0.3376
+      ]
+    },
+    "hue-group-4": {
+      "bri": 254,
+      "ct": 370,
+      "deviceID": "hue-group-4",
+      "hue": 41804,
+      "level": 100,
+      "on": true,
+      "sat": 59,
+      "type": "LightGroup",
+      "views": {
+        "dash_view": {
+          "request": "on",
+          "switch": {
+            "false": {
+              "command": {
+                "switch": "off"
+              },
+              "text": "Off"
+            },
+            "true": {
+              "command": {
+                "switch": "on"
+              },
+              "default": true,
+              "text": "On"
+            }
+          },
+          "type": "switch"
+        },
+        "display": true,
+        "id": "hue-group-4",
+        "name": "Inside Lights",
+        "type": "lights"
+      },
+      "xy": [
+        0.3286,
+        0.3377
+      ]
+    },
+    "hue-group-5": {
+      "bri": 254,
+      "ct": 176,
+      "deviceID": "hue-group-5",
+      "hue": 34310,
+      "level": 100,
+      "on": true,
+      "sat": 190,
+      "type": "LightGroup",
+      "views": {
+        "dash_view": {
+          "request": "on",
+          "switch": {
+            "false": {
+              "command": {
+                "switch": "off"
+              },
+              "text": "Off"
+            },
+            "true": {
+              "command": {
+                "switch": "on"
+              },
+              "default": true,
+              "text": "On"
+            }
+          },
+          "type": "switch"
+        },
+        "display": true,
+        "id": "hue-group-5",
+        "name": "a.Floating Lamp",
+        "type": "lights"
+      },
+      "xy": [
+        0.3285,
+        0.3376
+      ]
+    },
+    "hue-group-8": {
+      "bri": 139,
+      "ct": 0,
+      "deviceID": "hue-group-8",
+      "hue": 0,
+      "level": 55,
+      "on": true,
+      "sat": 0,
+      "type": "LightGroup",
+      "views": {
+        "dash_view": {
+          "request": "on",
+          "switch": {
+            "false": {
+              "command": {
+                "switch": "off"
+              },
+              "text": "Off"
+            },
+            "true": {
+              "command": {
+                "switch": "on"
+              },
+              "default": true,
+              "text": "On"
+            }
+          },
+          "type": "switch"
+        },
+        "display": true,
+        "id": "hue-group-8",
+        "name": "Dimmer 8",
+        "type": "lights"
+      },
+      "xy": [
+        0.1724,
+        0.7468
+      ]
+    },
+    "hue-group-9": {
+      "bri": 254,
+      "ct": 176,
+      "deviceID": "hue-group-9",
+      "hue": 34310,
+      "level": 100,
+      "on": true,
+      "sat": 190,
+      "type": "LightGroup",
+      "views": {
+        "dash_view": {
+          "request": "on",
+          "switch": {
+            "false": {
+              "command": {
+                "switch": "off"
+              },
+              "text": "Off"
+            },
+            "true": {
+              "command": {
+                "switch": "on"
+              },
+              "default": true,
+              "text": "On"
+            }
+          },
+          "type": "switch"
+        },
+        "display": true,
+        "id": "hue-group-9",
+        "name": "Downstairs Hue",
+        "type": "lights"
+      },
+      "xy": [
+        0.3285,
+        0.3376
+      ]
+    },
+    "hue-light-1": {
+      "bri": 254,
+      "colormode": "xy",
+      "ct": 500,
+      "deviceID": "hue-light-1",
+      "hue": 46639,
+      "level": 100,
+      "on": false,
+      "sat": 254,
+      "type": "light",
+      "views": {
+        "dash_view": {
+          "request": "on",
+          "switch": {
+            "false": {
+              "command": {
+                "switch": "off"
+              },
+              "text": "Off"
+            },
+            "true": {
+              "command": {
+                "switch": "on"
+              },
+              "default": true,
+              "text": "On"
+            }
+          },
+          "type": "switch"
+        },
+        "display": true,
+        "id": "hue-light-1",
+        "name": "Forge",
+        "type": "lights"
+      },
+      "xy": [
+        0.1722,
+        0.0503
+      ]
+    },
+    "hue-light-10": {
+      "bri": 254,
+      "colormode": "ct",
+      "ct": 176,
+      "deviceID": "hue-light-10",
+      "hue": 34310,
+      "level": 100,
+      "on": true,
+      "sat": 190,
+      "type": "light",
+      "views": {
+        "dash_view": {
+          "request": "on",
+          "switch": {
+            "false": {
+              "command": {
+                "switch": "off"
+              },
+              "text": "Off"
+            },
+            "true": {
+              "command": {
+                "switch": "on"
+              },
+              "default": true,
+              "text": "On"
+            }
+          },
+          "type": "switch"
+        },
+        "display": true,
+        "id": "hue-light-10",
+        "name": "Floating2",
+        "type": "lights"
+      },
+      "xy": [
+        0.3285,
+        0.3376
+      ]
+    },
+    "hue-light-11": {
+      "bri": 139,
+      "colormode": "xy",
+      "ct": 0,
+      "deviceID": "hue-light-11",
+      "hue": 0,
+      "level": 55,
+      "on": false,
+      "sat": 0,
+      "type": "light",
+      "views": {
+        "dash_view": {
+          "request": "on",
+          "switch": {
+            "false": {
+              "command": {
+                "switch": "off"
+              },
+              "text": "Off"
+            },
+            "true": {
+              "command": {
+                "switch": "on"
+              },
+              "default": true,
+              "text": "On"
+            }
+          },
+          "type": "switch"
+        },
+        "display": true,
+        "id": "hue-light-11",
+        "name": "z.Extra3",
+        "type": "lights"
+      },
+      "xy": [
+        0.1724,
+        0.7468
+      ]
+    },
+    "hue-light-2": {
+      "bri": 51,
+      "colormode": "ct",
+      "ct": 176,
+      "deviceID": "hue-light-2",
+      "hue": 34310,
+      "level": 20,
+      "on": false,
+      "sat": 190,
+      "type": "light",
+      "views": {
+        "dash_view": {
+          "request": "on",
+          "switch": {
+            "false": {
+              "command": {
+                "switch": "off"
+              },
+              "text": "Off"
+            },
+            "true": {
+              "command": {
+                "switch": "on"
+              },
+              "default": true,
+              "text": "On"
+            }
+          },
+          "type": "switch"
+        },
+        "display": true,
+        "id": "hue-light-2",
+        "name": "Entry Light",
+        "type": "lights"
+      },
+      "xy": [
+        0.3285,
+        0.3376
+      ]
+    },
+    "hue-light-3": {
+      "bri": 254,
+      "colormode": "ct",
+      "ct": 176,
+      "deviceID": "hue-light-3",
+      "hue": 34310,
+      "level": 100,
+      "on": true,
+      "sat": 190,
+      "type": "light",
+      "views": {
+        "dash_view": {
+          "request": "on",
+          "switch": {
+            "false": {
+              "command": {
+                "switch": "off"
+              },
+              "text": "Off"
+            },
+            "true": {
+              "command": {
+                "switch": "on"
+              },
+              "default": true,
+              "text": "On"
+            }
+          },
+          "type": "switch"
+        },
+        "display": true,
+        "id": "hue-light-3",
+        "name": "Stairs",
+        "type": "lights"
+      },
+      "xy": [
+        0.3285,
+        0.3376
+      ]
+    },
+    "hue-light-4": {
+      "bri": 139,
+      "colormode": "xy",
+      "ct": 0,
+      "deviceID": "hue-light-4",
+      "hue": 0,
+      "level": 55,
+      "on": false,
+      "sat": 0,
+      "type": "light",
+      "views": {
+        "dash_view": {
+          "request": "on",
+          "switch": {
+            "false": {
+              "command": {
+                "switch": "off"
+              },
+              "text": "Off"
+            },
+            "true": {
+              "command": {
+                "switch": "on"
+              },
+              "default": true,
+              "text": "On"
+            }
+          },
+          "type": "switch"
+        },
+        "display": true,
+        "id": "hue-light-4",
+        "name": "z.Extra4",
+        "type": "lights"
+      },
+      "xy": [
+        0.1724,
+        0.7468
+      ]
+    },
+    "hue-light-5": {
+      "bri": 25,
+      "colormode": "ct",
+      "ct": 176,
+      "deviceID": "hue-light-5",
+      "hue": 41804,
+      "level": 10,
+      "on": true,
+      "sat": 59,
+      "type": "light",
+      "views": {
+        "dash_view": {
+          "request": "on",
+          "switch": {
+            "false": {
+              "command": {
+                "switch": "off"
+              },
+              "text": "Off"
+            },
+            "true": {
+              "command": {
+                "switch": "on"
+              },
+              "default": true,
+              "text": "On"
+            }
+          },
+          "type": "switch"
+        },
+        "display": true,
+        "id": "hue-light-5",
+        "name": "Light Strip",
+        "type": "lights"
+      },
+      "xy": [
+        0.3286,
+        0.3377
+      ]
+    },
+    "hue-light-6": {
+      "bri": 254,
+      "colormode": "ct",
+      "ct": 176,
+      "deviceID": "hue-light-6",
+      "hue": 34310,
+      "level": 100,
+      "on": true,
+      "sat": 190,
+      "type": "light",
+      "views": {
+        "dash_view": {
+          "request": "on",
+          "switch": {
+            "false": {
+              "command": {
+                "switch": "off"
+              },
+              "text": "Off"
+            },
+            "true": {
+              "command": {
+                "switch": "on"
+              },
+              "default": true,
+              "text": "On"
+            }
+          },
+          "type": "switch"
+        },
+        "display": true,
+        "id": "hue-light-6",
+        "name": "Left Nightstand ",
+        "type": "lights"
+      },
+      "xy": [
+        0.3285,
+        0.3376
+      ]
+    },
+    "hue-light-7": {
+      "bri": 254,
+      "colormode": "ct",
+      "ct": 176,
+      "deviceID": "hue-light-7",
+      "hue": 34310,
+      "level": 100,
+      "on": true,
+      "sat": 190,
+      "type": "light",
+      "views": {
+        "dash_view": {
+          "request": "on",
+          "switch": {
+            "false": {
+              "command": {
+                "switch": "off"
+              },
+              "text": "Off"
+            },
+            "true": {
+              "command": {
+                "switch": "on"
+              },
+              "default": true,
+              "text": "On"
+            }
+          },
+          "type": "switch"
+        },
+        "display": true,
+        "id": "hue-light-7",
+        "name": "Right Night Stand",
+        "type": "lights"
+      },
+      "xy": [
+        0.3285,
+        0.3376
+      ]
+    },
+    "hue-light-8": {
+      "bri": 254,
+      "colormode": "ct",
+      "ct": 176,
+      "deviceID": "hue-light-8",
+      "hue": 34310,
+      "level": 100,
+      "on": true,
+      "sat": 190,
+      "type": "light",
+      "views": {
+        "dash_view": {
+          "request": "on",
+          "switch": {
+            "false": {
+              "command": {
+                "switch": "off"
+              },
+              "text": "Off"
+            },
+            "true": {
+              "command": {
+                "switch": "on"
+              },
+              "default": true,
+              "text": "On"
+            }
+          },
+          "type": "switch"
+        },
+        "display": true,
+        "id": "hue-light-8",
+        "name": "Floating1",
+        "type": "lights"
+      },
+      "xy": [
+        0.3285,
+        0.3376
+      ]
+    },
+    "hue-light-9": {
+      "bri": 254,
+      "colormode": "ct",
+      "ct": 176,
+      "deviceID": "hue-light-9",
+      "hue": 34310,
+      "level": 100,
+      "on": true,
+      "sat": 190,
+      "type": "light",
+      "views": {
+        "dash_view": {
+          "request": "on",
+          "switch": {
+            "false": {
+              "command": {
+                "switch": "off"
+              },
+              "text": "Off"
+            },
+            "true": {
+              "command": {
+                "switch": "on"
+              },
+              "default": true,
+              "text": "On"
+            }
+          },
+          "type": "switch"
+        },
+        "display": true,
+        "id": "hue-light-9",
+        "name": "Desk",
+        "type": "lights"
+      },
+      "xy": [
+        0.3285,
+        0.3376
+      ]
+    },
+    "lifx-hub": {
+      "deviceID": "lifx-hub",
+      "views": {}
+    },
+    "nest": {
+      "deviceID": "nest",
+      "fan": false,
+      "presence": false,
+      "state": "awayidle",
+      "target": {
+        "high": 80.3,
+        "low": 65.2,
+        "target": 77.7
+      },
+      "targetType": "cool",
+      "temp": 77.6,
+      "views": {
+        "dash_view": {
+          "request": "state",
+          "state": {
+            "awaycool": {
+              "click": "false",
+              "color": "blue",
+              "command": "update",
+              "default": true,
+              "value": "76.2 (away)"
+            },
+            "awayheat": {
+              "click": "false",
+              "color": "red",
+              "command": "update",
+              "default": true,
+              "value": "76.2 (away)"
+            },
+            "awayidle": {
+              "click": "true",
+              "color": "grey",
+              "command": "update",
+              "value": "76.2 (away)"
+            },
+            "cool": {
+              "click": "false",
+              "color": "blue",
+              "command": "update",
+              "default": true,
+              "value": 76.2
+            },
+            "heat": {
+              "click": "false",
+              "color": "red",
+              "command": "update",
+              "default": true,
+              "value": "76.2 (away)"
+            },
+            "idle": {
+              "click": "true",
+              "color": "grey",
+              "command": "update",
+              "value": 76.2
+            }
+          },
+          "type": "stateValue"
+        },
+        "display": true,
+        "id": "nest",
+        "name": "nest",
+        "type": "thermostat"
+      }
+    },
+    "zwave-node-11": {
+      "deviceID": "zwave-node-11",
+      "label": -1,
+      "off": false,
+      "on": true,
+      "state": true,
+      "valueId": -1,
+      "views": {
+        "dash_view": {
+          "request": "on",
+          "switch": {
+            "false": {
+              "command": {
+                "switch": "off"
+              },
+              "text": "Off"
+            },
+            "true": {
+              "command": {
+                "switch": "on"
+              },
+              "default": true,
+              "text": "On"
+            }
+          },
+          "type": "switch"
+        },
+        "display": true,
+        "id": "zwave-node-11",
+        "name": "Kitchen Lights",
+        "type": "lights"
+      }
+    },
+    "zwave-node-13": {
+      "alarm": false,
+      "battery": 100,
+      "closed": true,
+      "deviceID": "zwave-node-13",
+      "label": -1,
+      "open": false,
+      "state": false,
+      "valueId": -1,
+      "views": {
+        "dash_view": {
+          "request": "state",
+          "text": {
+            "false": {
+              "color": "blue",
+              "command": "none",
+              "text": "Closed"
+            },
+            "true": {
+              "click": "true",
+              "color": "red",
+              "command": "none",
+              "text": "Open"
+            }
+          },
+          "type": "text"
+        },
+        "display": true,
+        "id": "zwave-node-13",
+        "name": "frontDoor",
+        "type": "sensor"
+      }
+    },
+    "zwave-node-14": {
+      "deviceID": "zwave-node-14",
+      "label": -1,
+      "off": true,
+      "on": false,
+      "state": false,
+      "valueId": -1,
+      "views": {
+        "dash_view": {
+          "request": "on",
+          "switch": {
+            "false": {
+              "command": {
+                "switch": "off"
+              },
+              "text": "Off"
+            },
+            "true": {
+              "command": {
+                "switch": "on"
+              },
+              "default": true,
+              "text": "On"
+            }
+          },
+          "type": "switch"
+        },
+        "display": true,
+        "id": "zwave-node-14",
+        "name": "Upstairs Lights",
+        "type": "lights"
+      }
+    },
+    "zwave-node-16": {
+      "alarm": false,
+      "battery": 100,
+      "deviceID": "zwave-node-16",
+      "humidity": 35.0,
+      "humidityUnits": "%",
+      "label": -1,
+      "luminance": 0.0,
+      "luminanceUnits": "lux",
+      "motion": true,
+      "temperature": 84.19999694824219,
+      "temperatureUnits": "F",
+      "valueId": -1,
+      "views": {
+        "dash_view": {
+          "request": "motion",
+          "text": {
+            "false": {
+              "color": "grey",
+              "command": "none",
+              "text": "Inactive"
+            },
+            "true": {
+              "color": "blue",
+              "command": "none",
+              "text": "Active"
+            }
+          },
+          "type": "text"
+        },
+        "display": true,
+        "id": "zwave-node-16",
+        "name": "Aeon Labs Multi",
+        "type": "sensor"
+      }
+    },
+    "zwave-node-2": {
+      "alarm": false,
+      "battery": 100,
+      "closed": true,
+      "deviceID": "zwave-node-2",
+      "label": -1,
+      "open": false,
+      "state": false,
+      "valueId": -1,
+      "views": {
+        "dash_view": {
+          "request": "state",
+          "text": {
+            "false": {
+              "color": "blue",
+              "command": "none",
+              "text": "Closed"
+            },
+            "true": {
+              "click": "true",
+              "color": "red",
+              "command": "none",
+              "text": "Open"
+            }
+          },
+          "type": "text"
+        },
+        "display": true,
+        "id": "zwave-node-2",
+        "name": "LowerWindow",
+        "type": "sensor"
+      }
+    },
+    "zwave-node-4": {
+      "alarm": false,
+      "battery": 100,
+      "deviceID": "zwave-node-4",
+      "humidity": 24.0,
+      "humidityUnits": "%",
+      "label": -1,
+      "luminance": 0.0,
+      "luminanceUnits": "lux",
+      "motion": true,
+      "temperature": 0.00002680000034160912,
+      "temperatureUnits": "C",
+      "valueId": -1,
+      "views": {
+        "dash_view": {
+          "request": "motion",
+          "text": {
+            "false": {
+              "color": "grey",
+              "command": "none",
+              "text": "Inactive"
+            },
+            "true": {
+              "color": "blue",
+              "command": "none",
+              "text": "Active"
+            }
+          },
+          "type": "text"
+        },
+        "display": true,
+        "id": "zwave-node-4",
+        "name": "Kitchen Motion",
+        "type": "sensor"
+      }
+    },
+    "zwave-node-5": {
+      "alarm": false,
+      "battery": 71,
+      "closed": false,
+      "deviceID": "zwave-node-5",
+      "label": -1,
+      "open": true,
+      "state": true,
+      "valueId": -1,
+      "views": {
+        "dash_view": {
+          "request": "state",
+          "text": {
+            "false": {
+              "color": "blue",
+              "command": "none",
+              "text": "Closed"
+            },
+            "true": {
+              "click": "true",
+              "color": "red",
+              "command": "none",
+              "text": "Open"
+            }
+          },
+          "type": "text"
+        },
+        "display": true,
+        "id": "zwave-node-5",
+        "name": "testSensorTwo",
+        "type": "sensor"
+      }
+    },
+    "zwave-node-9": {
+      "deviceID": "zwave-node-9",
+      "label": -1,
+      "off": false,
+      "on": true,
+      "state": true,
+      "valueId": -1,
+      "views": {
+        "dash_view": {
+          "request": "on",
+          "switch": {
+            "false": {
+              "command": {
+                "switch": "off"
+              },
+              "text": "Off"
+            },
+            "true": {
+              "command": {
+                "switch": "on"
+              },
+              "default": true,
+              "text": "On"
+            }
+          },
+          "type": "switch"
+        },
+        "display": true,
+        "id": "zwave-node-9",
+        "name": "Bedroom Fan",
+        "type": "lights"
+      }
+    }
+  }
+}

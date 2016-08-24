@@ -1,0 +1,1559 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"getT",
+				"getTargetType〔function〕"
+			],
+			[
+				"_st",
+				"_structure_id"
+			],
+			[
+				"_",
+				"_hvac_fan_state〔variable〕"
+			],
+			[
+				"_ta",
+				"_target_temperature_low〔variable〕"
+			],
+			[
+				"_h",
+				"_hvac_heater_state〔variable〕"
+			],
+			[
+				"de",
+				"device"
+			],
+			[
+				"devi",
+				"deviceID"
+			],
+			[
+				"Nest",
+				"NEST-UPDATER"
+			],
+			[
+				"_srt",
+				"_structure_id〔variable〕"
+			],
+			[
+				"f",
+				"ffScheduler〔variable〕"
+			],
+			[
+				"run",
+				"runEveryM〔function〕"
+			],
+			[
+				"ff_db",
+				"ff_db_session"
+			],
+			[
+				"aObj",
+				"aObj.listen"
+			],
+			[
+				"reins",
+				"reinstall_apps〔function〕"
+			],
+			[
+				"App",
+				"AppDB"
+			],
+			[
+				"get",
+				"get_session"
+			],
+			[
+				"E",
+				"Exception〔class〕"
+			],
+			[
+				"appO",
+				"appObject"
+			],
+			[
+				"exc",
+				"except〔keyword〕"
+			],
+			[
+				"ex",
+				"except〔keyword〕"
+			],
+			[
+				"Routi",
+				"RoutineDB"
+			],
+			[
+				"delet",
+				"deleting"
+			],
+			[
+				"reinsa",
+				"reinstall_routines〔function〕"
+			],
+			[
+				"da",
+				"database"
+			],
+			[
+				"pri",
+				"primary_key=True"
+			],
+			[
+				"In",
+				"Integer"
+			],
+			[
+				"Col",
+				"Column"
+			],
+			[
+				"event",
+				"event_log"
+			],
+			[
+				"mess",
+				"messages〔variable〕"
+			],
+			[
+				"localhost",
+				"localhost:6001"
+			],
+			[
+				"pa",
+				"padding-bottom: 〔property〕"
+			],
+			[
+				"padding-",
+				"padding-top: 〔property〕"
+			],
+			[
+				"color",
+				"border-color: 〔property〕"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"op",
+				"opacity: 〔property〕"
+			],
+			[
+				"time",
+				"timedelta〔class〕"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"check",
+				"check_asswers_vuln"
+			],
+			[
+				"ans",
+				"answer2"
+			],
+			[
+				"an",
+				"answer2"
+			],
+			[
+				"re",
+				"redirect〔module〕"
+			],
+			[
+				"fethc",
+				"fetchone"
+			],
+			[
+				"ques",
+				"question2"
+			],
+			[
+				"user",
+				"userID"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"inli",
+				"inline-block〔value〕"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"cons",
+				"console.log"
+			],
+			[
+				"getEl",
+				"getElementsByName〔function〕"
+			],
+			[
+				"doc",
+				"document〔variable〕"
+			],
+			[
+				"chan",
+				"change_value"
+			],
+			[
+				"cha",
+				"change_value"
+			],
+			[
+				"_br",
+				"_bridge"
+			],
+			[
+				"l",
+				"_light_id〔variable〕"
+			],
+			[
+				"log",
+				"logging〔module〕"
+			],
+			[
+				"token",
+				"token_file"
+			],
+			[
+				"echo",
+				"echo_switch"
+			],
+			[
+				"inten",
+				"intent_name〔variable〕"
+			],
+			[
+				"card",
+				"card_title〔variable〕"
+			],
+			[
+				"car",
+				"card_type"
+			],
+			[
+				"output",
+				"output_type"
+			],
+			[
+				"out",
+				"output_speech"
+			],
+			[
+				"device",
+				"device_list"
+			],
+			[
+				"routine",
+				"routine_list〔variable〕"
+			],
+			[
+				"rou",
+				"routineDB"
+			],
+			[
+				"auth",
+				"auth_token_required"
+			],
+			[
+				"current",
+				"current_user〔module〕"
+			],
+			[
+				"new",
+				"newUser"
+			],
+			[
+				"cas",
+				"cascade=False"
+			],
+			[
+				"loca",
+				"location〔variable〕"
+			],
+			[
+				"F",
+				"Fio_Location"
+			],
+			[
+				"wea",
+				"weather_locations〔variable〕"
+			],
+			[
+				"Fi",
+				"Fio_Config〔module〕"
+			],
+			[
+				"we",
+				"weather_locations〔variable〕"
+			],
+			[
+				"side",
+				"sideNav"
+			],
+			[
+				"wid",
+				"width: 〔property〕"
+			],
+			[
+				"mi",
+				"migraine"
+			],
+			[
+				"Fol",
+				"FollowupToken〔class〕"
+			],
+			[
+				"DE",
+				"DEFAULT_FOLLOWUP_HOURS〔variable〕"
+			],
+			[
+				"mail",
+				"mail.send"
+			],
+			[
+				"fol",
+				"followup_messages"
+			],
+			[
+				"fo",
+				"followup_messages"
+			],
+			[
+				"make",
+				"make_hr_date〔function〕"
+			],
+			[
+				"Fo",
+				"FollowupToken〔class〕"
+			],
+			[
+				"foll",
+				"followup_email_template〔module〕"
+			],
+			[
+				"d",
+				"datetime〔class〕"
+			],
+			[
+				"me",
+				"medicationTaken"
+			],
+			[
+				"curre",
+				"current_user〔module〕"
+			],
+			[
+				"get_me",
+				"get_medication_taken_from_form〔function〕"
+			],
+			[
+				"defa",
+				"default_time"
+			],
+			[
+				"to",
+				"to_epoch〔function〕"
+			],
+			[
+				"hr",
+				"hr_to_sec〔function〕"
+			],
+			[
+				"mak",
+				"make_hr_date〔function〕"
+			],
+			[
+				"get_m",
+				"get_medication_taken_from_migraine"
+			],
+			[
+				"hour",
+				"hours_to_offset"
+			],
+			[
+				"pu",
+				"pushover_user_key"
+			],
+			[
+				"ma",
+				"max_length"
+			],
+			[
+				"crea",
+				"confirmed_at"
+			],
+			[
+				"mig",
+				"migraine_email_password"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"cur",
+				"current_user"
+			],
+			[
+				"app",
+				"apply_async"
+			],
+			[
+				"have",
+				"haveMigraine"
+			],
+			[
+				"hav",
+				"haveMigraine"
+			],
+			[
+				"ha",
+				"haveMigrain"
+			],
+			[
+				"Mi",
+				"MigraineFollowup〔class〕"
+			],
+			[
+				"last",
+				"last_followup_time"
+			],
+			[
+				"las",
+				"last_followup_time"
+			],
+			[
+				"chi",
+				"children_events"
+			],
+			[
+				"Mig",
+				"MigraineFollowup〔class〕"
+			],
+			[
+				"objec",
+				"objects"
+			],
+			[
+				"pare",
+				"parentID"
+			],
+			[
+				"med",
+				"medication_taken"
+			],
+			[
+				"tz",
+				"tzinfo"
+			],
+			[
+				"as",
+				"astimezone"
+			],
+			[
+				"tim",
+				"timezone"
+			],
+			[
+				"hou",
+				"hour〔variable〕"
+			],
+			[
+				"ch",
+				"chart_date"
+			],
+			[
+				"weather",
+				"weather_data〔variable〕"
+			],
+			[
+				"for",
+				"forecast_data〔variable〕"
+			],
+			[
+				"cu",
+				"current_data〔variable〕"
+			],
+			[
+				"ret",
+				"return_data〔variable〕"
+			],
+			[
+				"zip",
+				"zipcode〔argument〕"
+			],
+			[
+				"return",
+				"return_data"
+			],
+			[
+				"upd",
+				"update_weather〔function〕"
+			],
+			[
+				"page",
+				"page_log"
+			],
+			[
+				"two",
+				"two_hours"
+			],
+			[
+				"str",
+				"strftime"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "base.html",
+			"settings":
+			{
+				"buffer_size": 1182,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"file": "/home/zpriddy/.config/sublime-text-3/Packages/User/View In Browser.sublime-settings",
+			"file_size": 258,
+			"file_write_time": 131160522689560843,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/zpriddy/.config/sublime-text-3/Packages/User/SublimeServer.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 314,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "re",
+		"selected_items":
+		[
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"server",
+				"SublimeServer: Manage SublimeServer Settings"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git q",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"git a",
+				"Git: Add All"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"qu",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"q",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"gti a",
+				"Git: Add All"
+			],
+			[
+				"git p",
+				"Git: Push"
+			],
+			[
+				"gita ",
+				"Git: Add All"
+			],
+			[
+				"qui",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"git ad",
+				"Git: Add All"
+			],
+			[
+				"gita",
+				"Git: Add All"
+			],
+			[
+				"ad",
+				"Git: Add All"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
+			[
+				"json",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"a",
+				"Git: Add All"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"pusg",
+				"Git: Push Tags"
+			],
+			[
+				"pushg",
+				"Git: Push Tags"
+			],
+			[
+				"git ",
+				"Git: Push"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"git new",
+				"Git: New Branch"
+			],
+			[
+				"branch",
+				"Git: Change Branch"
+			],
+			[
+				"git chan",
+				"Git: Change Branch"
+			],
+			[
+				"pus",
+				"Git: Push"
+			],
+			[
+				"git",
+				"Git: Push"
+			],
+			[
+				"quic",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"pu",
+				"Git: Push"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git qu",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"git qiu",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"forma",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"unfo",
+				"Python Docstrings: Unfold"
+			],
+			[
+				"fold",
+				"Python Docstrings: Fold"
+			],
+			[
+				"un",
+				"Python Docstrings: Unfold"
+			],
+			[
+				"python",
+				"Set Syntax: PythonImproved"
+			],
+			[
+				"fodl",
+				"Fold Python : enter content"
+			],
+			[
+				"fo",
+				"Python Docstrings: Fold"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"python ",
+				"Preferences: Fold Python Settings"
+			],
+			[
+				"auto",
+				"AutoDocstring: Current"
+			],
+			[
+				"pep",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"docst",
+				"Python Docstrings: Fold"
+			],
+			[
+				"unfol",
+				"Python Docstrings: Unfold"
+			],
+			[
+				"python doc",
+				"Python Docstrings: Unfold"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"quio",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"git c",
+				"Git: Commit"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"ma",
+				"Material Theme: Configuration"
+			],
+			[
+				"htm",
+				"HTMLBeautify"
+			],
+			[
+				"disable pa",
+				"Package Control: Disable Package"
+			],
+			[
+				"pep8",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"css",
+				"Tidy CSS (Low Compression)"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"h",
+				"HTMLBeautify"
+			],
+			[
+				"p8",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"s",
+				"Sort Lines"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"fix",
+				"Python Fix Imports"
+			],
+			[
+				"ht",
+				"HTMLBeautify"
+			],
+			[
+				"pytho",
+				"Python Fix Imports"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"import",
+				"Python Fix Imports"
+			],
+			[
+				"mark",
+				"Markdown Preview: Export HTML in Sublime Text"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"test",
+				"PythonTest: Run project tests"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"go",
+				"Google Spell Check"
+			],
+			[
+				"goo",
+				"Google Spell Check"
+			],
+			[
+				"goog",
+				"Google Spell Check"
+			],
+			[
+				"PACK",
+				"Package Control: Install Package"
+			],
+			[
+				"SNIPPE",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"templ",
+				"Create file from Template"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"sublimeserver",
+			"sublimeserver_start",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/zpriddy/.config/sublime-text-3/Packages/AutoDocstring/AutoDocstring.sublime-settings",
+		"/home/zpriddy/.config/sublime-text-3/Packages/Fold Python/FoldPython.sublime-settings",
+		"/home/zpriddy/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/zpriddy/Github/Firefly/Firefly/devices/ffNest/__init__.py",
+		"/home/zpriddy/Github/Firefly/Firefly/devices/ffHue/ctFade.py",
+		"/home/zpriddy/Github/Firefly/Firefly/devices/ffHue/ffHue_light.py",
+		"/home/zpriddy/.config/sublime-text-3/Packages/Python PEP8 Autoformat/pep8_autoformat.sublime-settings",
+		"/home/zpriddy/.config/sublime-text-3/Packages/User/AutoDocstring.sublime-settings",
+		"/home/zpriddy/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/zpriddy/.config/sublime-text-3/Packages/User/Python.sublime-settings",
+		"/home/zpriddy/Github/Firefly/Firefly/core/database/__init__.py",
+		"/home/zpriddy/Github/Firefly/Firefly.sublime-project",
+		"/home/zpriddy/sshfs/Firefly/Firefly/Firefly/apps/ffAdvancedLighting/ffAdvancedLighting.py",
+		"/home/zpriddy/.config/sublime-text-3/Packages/CSSLint/CSSLint.sublime-settings",
+		"/home/zpriddy/.config/sublime-text-3/Packages/CSS3/CSS3.sublime-settings",
+		"/home/zpriddy/.config/sublime-text-3/Packages/User/CSSTidy.sublime-settings",
+		"/home/zpriddy/.config/sublime-text-3/Packages/CSSTidy/CSSTidy.sublime-settings",
+		"/home/zpriddy/Desktop/zerog_challange/testUsers.db",
+		"/home/zpriddy/Desktop/zerog_challange/index.html",
+		"/home/zpriddy/Desktop/zerog_challange/app.py",
+		"/home/zpriddy/Desktop/zerog_challange/__init__.py",
+		"/home/zpriddy/Desktop/zerog_challange/templates/__init__.py",
+		"/home/zpriddy/Github/Firefly/Firefly/devices/ffEcobee/__init__.py",
+		"/home/zpriddy/Github/migraine_tracker/static/js/Chart.Zoom.js",
+		"/home/zpriddy/Github/migraine_tracker/static/js/hammer.js",
+		"/home/zpriddy/Github/migraine_tracker/static/js/Chart.bundle.js",
+		"/home/zpriddy/Github/migraine_tracker/static/js/chart.js",
+		"/home/zpriddy/Github/migraine_tracker/static/css/feedback.css",
+		"/home/zpriddy/Github/migraine_tracker/templates/security/_messages.html",
+		"/home/zpriddy/Github/migraine_tracker/static/js/chardinjs.min.js",
+		"/home/zpriddy/Github/migraine_tracker/templates/__init__.py",
+		"/home/zpriddy/Github/migraine_tracker/templates/email/__init__.py",
+		"/home/zpriddy/Github/migraine_tracker/templates/event_more.html",
+		"/home/zpriddy/Github/migraine_tracker/migraine_tracker_ui.py",
+		"/home/zpriddy/Github/migraine_tracker/templates/security/forgot_password.html",
+		"/home/zpriddy/Github/migraine_tracker/templates/index.html",
+		"/home/zpriddy/Github/migraine_tracker/templates/view_log.html",
+		"/home/zpriddy/Github/migraine_tracker/templates/profile.html",
+		"/home/zpriddy/Github/migraine_tracker/.gitignore",
+		"/home/zpriddy/Github/migraine_tracker/forecast_io.py",
+		"/home/zpriddy/Github/migraine_tracker/config.py",
+		"/home/zpriddy/Github/migraine_tracker/__init__.py",
+		"/home/zpriddy/Github/migraine_tracker/requirements.txt",
+		"/home/zpriddy/Github/migraine_tracker/templates/log_migraine.html",
+		"/home/zpriddy/Github/migraine_tracker/app.log",
+		"/home/zpriddy/.config/sublime-text-3/Packages/Python Fix Imports/python_fiximports.sublime-settings",
+		"/home/zpriddy/Github/Firefly/Firefly/web_ui/templates/devices_beta.html",
+		"/home/zpriddy/Github/Firefly/Firefly/web_ui/templates/routines.html",
+		"/home/zpriddy/Github/Firefly/Firefly/core/models/routine.py",
+		"/home/zpriddy/Github/Firefly/Firefly/devices/ffZwave/ffZwave_switch.py",
+		"/home/zpriddy/Github/Firefly/Firefly/web_ui/generators/__init__.py",
+		"/home/zpriddy/Github/Firefly/Firefly/devices/ffZwave/ffZwave_multi_sensor.py",
+		"/home/zpriddy/Github/Firefly/Firefly/devices/ffZwave/ffZwave_door_window_sensor.py",
+		"/home/zpriddy/Github/Firefly/Firefly/web_ui/templates/base.html",
+		"/home/zpriddy/Github/Firefly/Firefly/web_ui/requirements.text",
+		"/home/zpriddy/Github/Firefly/README.md",
+		"/home/zpriddy/Github/Firefly/Firefly/devices/ffLifx/__init__.py",
+		"/home/zpriddy/Github/Firefly/Firefly/config/apps.json",
+		"/home/zpriddy/Github/Firefly/Firefly/config/app_config/ffAdvancedLighting/motion.json",
+		"/home/zpriddy/Github/Firefly/Firefly/config/app_config/kitchenLightTestApp.json",
+		"/home/zpriddy/Github/Firefly/Firefly/apps/ffAdvancedLighting/motion.py",
+		"/home/zpriddy/Github/Firefly/Firefly/apps/ffAdvancedLighting/ffAdvancedLighting.py",
+		"/home/zpriddy/Github/Firefly/Firefly/core/models/app.py",
+		"/home/zpriddy/Github/Firefly/Firefly/firefly_tests.py",
+		"/home/zpriddy/Github/Firefly/Firefly/config/rules.json",
+		"/home/zpriddy/Github/Firefly/Firefly/config/routine_template.json",
+		"/home/zpriddy/Github/Firefly/Firefly/core/models/command.py",
+		"/home/zpriddy/Github/Firefly/Firefly/core/models/device.py",
+		"/home/zpriddy/Github/Firefly/Firefly/config/routine.json",
+		"/home/zpriddy/Github/Firefly/Firefly/logs/app.log",
+		"/home/zpriddy/Github/Firefly/Firefly/config/app_config/ffAdvancedLighting/__init__.py",
+		"/home/zpriddy/Github/Firefly/Firefly/devices/ffZwave/ffZwave.py",
+		"/home/zpriddy/Github/Firefly/Firefly/devices/ffHue/ffHue.py",
+		"/home/zpriddy/Github/Firefly/Firefly/config/devices.json",
+		"/home/zpriddy/Github/Firefly/Firefly/run_firefly.py",
+		"/home/zpriddy/Github/Firefly/Firefly/core/firefly_api.py",
+		"/home/zpriddy/Github/Firefly/Firefly/devices/ffPresence/ffPresence.py",
+		"/home/zpriddy/Github/Firefly/Firefly/config/app_config/__init__.py",
+		"/home/zpriddy/Github/Firefly/Firefly/tests/test_core_models_command.py",
+		"/home/zpriddy/Github/Firefly/Firefly/apps/ffAdvancedLighting/__init__.py",
+		"/home/zpriddy/Github/Firefly/Firefly/apps/__init__.py",
+		"/home/zpriddy/Github/Firefly/Firefly/apps",
+		"/home/zpriddy/Github/Firefly/Firefly/devices/ffLgControl/ffLgControl.py",
+		"/home/zpriddy/Github/Firefly/Firefly/devices/ffLgControl/__init__.py",
+		"/home/zpriddy/Github/python-lg/lg.py",
+		"/home/zpriddy/Github/Firefly/Firefly/config/devices_sample.json",
+		"/home/zpriddy/Github/Firefly/Firefly/devices/ffZwave/__init__.py",
+		"/home/zpriddy/Github/Firefly/Firefly/core/location.py",
+		"/home/zpriddy/Github/Firefly/Firefly/config/location.json",
+		"/home/zpriddy/Github/Firefly/Firefly/devices/ffHue/ffHue_bridge.py",
+		"/home/zpriddy/Github/Firefly/Firefly/devices/ffPushover/ffPushover_old.py",
+		"/home/zpriddy/Github/Firefly/Firefly/devices/ffHue/ffHue_group.py",
+		"/home/zpriddy/Github/Firefly/Firefly/core/models/request.py",
+		"/home/zpriddy/Github/Firefly/Firefly/core/utils/notify.py",
+		"/home/zpriddy/Github/Firefly/Firefly/core/scheduler.py",
+		"/home/zpriddy/Github/Firefly/Firefly/core/models/event.py",
+		"/home/zpriddy/Github/Firefly/Firefly/devices/ffPushover/ffPushover.py",
+		"/home/zpriddy/Github/Firefly/Firefly/core/utils/__init__.py",
+		"/home/zpriddy/Github/Firefly/Firefly/templates/manual_command.html",
+		"/home/zpriddy/Github/Firefly/Firefly/templates/__init__.py",
+		"/home/zpriddy/Github/zPyFirefly/firefly/web_ui/static/js/__init__.py",
+		"/home/zpriddy/Github/zPyFirefly/firefly/web_ui/templates/dashboard.html",
+		"/home/zpriddy/Github/zPyFirefly/firefly/plugins/forecastio/forecastio.py",
+		"/home/zpriddy/Github/zPyFirefly/firefly/web_ui/static/__init__.py",
+		"/home/zpriddy/Github/zPyFirefly/firefly/web_ui/static/css/__init__.py",
+		"/home/zpriddy/Github/zPyFirefly/firefly/plugins/zPyForcastio/zPyForcastio.py",
+		"/home/zpriddy/Github/zPyFirefly/firefly/plugins/zPyForcastio/__init.py",
+		"/home/zpriddy/Github/zPyFirefly/firefly/web_ui/old_design.py",
+		"/home/zpriddy/Github/zPyFirefly/firefly/web_ui/templates/devices_beta.html",
+		"/home/zpriddy/Github/zPyFirefly/firefly/web_ui/templates/login.html",
+		"/home/zpriddy/Github/zPyFirefly/firefly/web_ui/TEST/index.html",
+		"/home/zpriddy/Github/zPyFirefly/firefly/web_ui/templates/__init__.py",
+		"/home/zpriddy/Github/zPyFirefly/firefly/web_ui/template/devices_beta.html",
+		"/home/zpriddy/Github/zPyFirefly/firefly/web_ui/web_ui.py",
+		"/home/zpriddy/Github/zPyFirefly/firefly/web_ui/styles.css",
+		"/home/zpriddy/Github/zPyFirefly/firefly/plugins/zPySmartThings/zPySmartThings_contact_device.py",
+		"/home/zpriddy/Github/zPyFirefly/firefly/plugins/zPySmartThings/zPySmartThings_dimmer_device.py",
+		"/home/zpriddy/Github/zPyFirefly/firefly/plugins/zPySmartThings/zPySmartThings_motion_device.py",
+		"/home/zpriddy/Github/zPyFirefly/firefly/plugins/firefly/firefly_presence_device.py",
+		"/home/zpriddy/Github/zPyFirefly/firefly/web_ui/static/css/bootstrap.css",
+		"/home/zpriddy/Github/zPyFirefly/firefly/web_ui/static/css/bootstrap.min.css",
+		"/home/zpriddy/Github/zPyFirefly/firefly/web_ui/__init__.py",
+		"/home/zpriddy/Github/zPyFirefly/firefly/plugins/pushover/pushover.py",
+		"/home/zpriddy/Github/zPyFirefly/firefly/config/pushover.json",
+		"/home/zpriddy/Github/zPyFirefly/firefly/config/firefly_settings.py",
+		"/home/zpriddy/Github/zPyFirefly/firefly/core/location.py",
+		"/home/zpriddy/Github/zPyFirefly/firefly/plugins/firefly_virtual_devices/firefly_virtual_switch_device.py",
+		"/home/zpriddy/Github/zPyFirefly/firefly/plugins/firefly_virtual_devices/firefly_presence_device.py"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"home/zpriddy/Github/migraine_tracker",
+			"/home/zpriddy/Github/Firefly/Firefly",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"on",
+			"True",
+			"False",
+			"'",
+			"u'",
+			"generate_stateValue",
+			"refr",
+			"view",
+			"dash",
+			"send_com",
+			"ffComm",
+			"update",
+			"start",
+			"sched",
+			"install_app",
+			"last_command_source",
+			"from core.database.database import get_session",
+			"command",
+			"ffZwave",
+			"criti",
+			"ffZwave",
+			"name",
+			"ffZwave",
+			"sessio",
+			"insatll_devices",
+			"auto_start",
+			"event_log",
+			"comman",
+			"print",
+			"password",
+			"config",
+			"OrderedDict",
+			"apps",
+			"lower",
+			"save",
+			"sav",
+			"JSON",
+			"zwave",
+			"default",
+			"displa",
+			"auto_start",
+			"token",
+			"remove",
+			"outputSp",
+			"routine",
+			"get_last_time_from_migrains",
+			"if",
+			"conte",
+			"child",
+			"gen_fo",
+			"update_w",
+			"Pressue",
+			"request.args.get('hours')",
+			"12",
+			"FollowupToken",
+			"haveMigrain",
+			"haveMi",
+			"order",
+			"migraine_chart_date",
+			"migraine_hr_date",
+			"get_cu",
+			"    \n",
+			"user_options",
+			"view_log",
+			"print",
+			"http",
+			"\"><",
+			"text",
+			"login_manager",
+			"request",
+			"read",
+			"lifx",
+			"configOptions",
+			"_liminance",
+			"criti",
+			"’",
+			"refresh_scheduler",
+			"zn.",
+			"event",
+			"logging.info",
+			"print",
+			"message",
+			"\"hue-light-1\" : {\"setLight\": {\"on\":false}},",
+			"ffEvent('location':{'mode':self._mode})",
+			"Zach Pus",
+			"#ffN",
+			"start",
+			"subType",
+			"ffEvent",
+			"update",
+			"datetime",
+			"data_log",
+			"print",
+			"hour",
+			"300",
+			"l12",
+			"refreshFunction",
+			"')}}\"></",
+			"text",
+			"templa",
+			"                            ",
+			"refreshFunction",
+			">\n",
+			"            \n",
+			"main",
+			"value",
+			"icons",
+			"getAllDevices()",
+			"localhos",
+			"get_lights",
+			"row-",
+			"wrap",
+			".row",
+			"row ",
+			"types",
+			"Command Not Found",
+			"Command Not Fount",
+			"col",
+			": ",
+			"reactor",
+			"run",
+			"send_command",
+			"log",
+			"print",
+			"()\n",
+			"std",
+			"sys",
+			"4"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"true",
+			"false",
+			"\"",
+			"updated_by",
+			"",
+			"haveMigraine",
+			"migraine.chart_date",
+			"migraine.hr_date",
+			"log/view",
+			"config",
+			"_luminance",
+			"\\'",
+			"'",
+			"self._network.",
+			"self._network",
+			"logging.debug",
+			"ffEvent('location',{'mode':self._mode})",
+			"ZachPus",
+			"ffN",
+			"getAllDevices().get('all_devices')",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1182,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1182,
+								1182
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								8,
+								18,
+								20,
+								46,
+								11,
+								4,
+								185,
+								252,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/zpriddy/.config/sublime-text-3/Packages/User/View In Browser.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								8,
+								18,
+								20,
+								51,
+								8,
+								14,
+								150,
+								180,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/zpriddy/.config/sublime-text-3/Packages/User/SublimeServer.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 314,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								314,
+								314
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								8,
+								18,
+								20,
+								47,
+								17,
+								4,
+								234,
+								225,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 98.0
+	},
+	"pinned_build_system": "",
+	"project": "serenity.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/Serenity/serenity.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 293.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 3
+	}
+}
