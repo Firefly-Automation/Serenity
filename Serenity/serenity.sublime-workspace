@@ -4,6 +4,70 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-decoration: 〔property〕"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"device",
+				"device-card"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"md-card",
+				"md-card-content"
+			],
+			[
+				"layout-",
+				"layout-fill"
+			],
+			[
+				"devi",
+				"deviceType"
+			],
+			[
+				"selec",
+				"selectedDeviceIndex"
+			],
+			[
+				"layout",
+				"layout-align"
+			],
+			[
+				"ng-re",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"bin",
+				"ng-bind-html	AngularJS"
+			],
+			[
+				"fon",
+				"font-size: 〔property〕"
+			],
+			[
+				"lin",
+				"line-height: 〔property〕"
+			],
+			[
+				"layo",
+				"layout-align"
+			],
+			[
+				"md-too",
+				"md-toolbar"
+			],
+			[
 				"getT",
 				"getTargetType〔function〕"
 			],
@@ -26,10 +90,6 @@
 			[
 				"de",
 				"device"
-			],
-			[
-				"devi",
-				"deviceID"
 			],
 			[
 				"Nest",
@@ -122,10 +182,6 @@
 			[
 				"localhost",
 				"localhost:6001"
-			],
-			[
-				"pa",
-				"padding-bottom: 〔property〕"
 			],
 			[
 				"padding-",
@@ -250,10 +306,6 @@
 			[
 				"out",
 				"output_speech"
-			],
-			[
-				"device",
-				"device_list"
 			],
 			[
 				"routine",
@@ -462,87 +514,152 @@
 			[
 				"as",
 				"astimezone"
-			],
-			[
-				"tim",
-				"timezone"
-			],
-			[
-				"hou",
-				"hour〔variable〕"
-			],
-			[
-				"ch",
-				"chart_date"
-			],
-			[
-				"weather",
-				"weather_data〔variable〕"
-			],
-			[
-				"for",
-				"forecast_data〔variable〕"
-			],
-			[
-				"cu",
-				"current_data〔variable〕"
-			],
-			[
-				"ret",
-				"return_data〔variable〕"
-			],
-			[
-				"zip",
-				"zipcode〔argument〕"
-			],
-			[
-				"return",
-				"return_data"
-			],
-			[
-				"upd",
-				"update_weather〔function〕"
-			],
-			[
-				"page",
-				"page_log"
-			],
-			[
-				"two",
-				"two_hours"
-			],
-			[
-				"str",
-				"strftime"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "base.html",
+			"file": "serenity.py",
 			"settings":
 			{
-				"buffer_size": 1182,
+				"buffer_size": 616,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "",
-			"file": "/home/zpriddy/.config/sublime-text-3/Packages/User/View In Browser.sublime-settings",
-			"file_size": 258,
-			"file_write_time": 131160522689560843,
+			"file": "static/sample_status.json",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 27857,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/zpriddy/.config/sublime-text-3/Packages/User/SublimeServer.sublime-settings",
+			"file": "templates/base2.html",
 			"settings":
 			{
-				"buffer_size": 314,
+				"buffer_size": 9117,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/serenity_base.html",
+			"settings":
+			{
+				"buffer_size": 4964,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/devices.html",
+			"settings":
+			{
+				"buffer_size": 2941,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/device_states.json",
+			"settings":
+			{
+				"buffer_size": 334,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/base.css",
+			"settings":
+			{
+				"buffer_size": 906,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/device_views.json",
+			"settings":
+			{
+				"buffer_size": 7422,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/app.js",
+			"settings":
+			{
+				"buffer_size": 9372,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/sample_device_views.json",
+			"settings":
+			{
+				"buffer_size": 26142,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "core/view_generators.py",
+			"settings":
+			{
+				"buffer_size": 435,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "core/view_templates/thermostat.html",
+			"settings":
+			{
+				"buffer_size": 1582,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "core/view_templates/switch.html",
+			"settings":
+			{
+				"buffer_size": 1249,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "core/view_templates/light.html",
+			"settings":
+			{
+				"buffer_size": 1249,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "core/view_templates/dimmer.html",
+			"settings":
+			{
+				"buffer_size": 1257,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "core/view_templates/color_light.html",
+			"settings":
+			{
+				"buffer_size": 1249,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/zpriddy/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 746,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "serenity.sublime-project",
+			"settings":
+			{
+				"buffer_size": 258,
 				"line_ending": "Unix"
 			}
 		}
@@ -555,16 +672,44 @@
 	"command_palette":
 	{
 		"height": 354.0,
-		"last_filter": "re",
+		"last_filter": "ht",
 		"selected_items":
 		[
 			[
-				"re",
-				"Package Control: Remove Package"
+				"ht",
+				"HTMLPrettify"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"js bea",
+				"Javascript Beautify"
+			],
+			[
+				"htm",
+				"HTMLPrettify"
 			],
 			[
 				"pack",
 				"Package Control: Install Package"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
 			],
 			[
 				"rem",
@@ -629,10 +774,6 @@
 			[
 				"add",
 				"Git: Add All"
-			],
-			[
-				"json",
-				"Pretty JSON: Format and Sort JSON"
 			],
 			[
 				"insta",
@@ -783,10 +924,6 @@
 				"Material Theme: Configuration"
 			],
 			[
-				"htm",
-				"HTMLBeautify"
-			],
-			[
 				"disable pa",
 				"Package Control: Disable Package"
 			],
@@ -827,16 +964,8 @@
 				"Python Fix Imports"
 			],
 			[
-				"ht",
-				"HTMLBeautify"
-			],
-			[
 				"pytho",
 				"Python Fix Imports"
-			],
-			[
-				"html",
-				"HTMLBeautify"
 			],
 			[
 				"import",
@@ -887,7 +1016,7 @@
 				"Create file from Template"
 			]
 		],
-		"width": 575.0
+		"width": 1106.0
 	},
 	"console":
 	{
@@ -908,8 +1037,25 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/zpriddy/Desktop/Serenity",
+		"/home/zpriddy/Desktop/Serenity/core",
+		"/home/zpriddy/Desktop/Serenity/static"
+	],
 	"file_history":
 	[
+		"/home/zpriddy/Desktop/Serenity/core/__init__.py",
+		"/home/zpriddy/.config/sublime-text-3/Packages/User/SublimeServer.sublime-settings",
+		"/home/zpriddy/.config/sublime-text-3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/home/zpriddy/.config/sublime-text-3/Packages/User/View In Browser.sublime-settings",
+		"/home/zpriddy/Desktop/Serenity/static/__init__.py",
+		"/home/zpriddy/.config/sublime-text-3/Packages/User/JavascriptBeautify.sublime-settings",
+		"/home/zpriddy/.config/sublime-text-3/Packages/Javascript Beautify/JavascriptBeautify.sublime-settings",
+		"/home/zpriddy/Desktop/Serenity/static/angular-bind-html-compile.min.js",
+		"/home/zpriddy/Desktop/Serenity/templates/base3.html",
+		"/home/zpriddy/Desktop/Serenity/base.html",
+		"/home/zpriddy/Desktop/Serenity/templates/__init__.py",
 		"/home/zpriddy/.config/sublime-text-3/Packages/AutoDocstring/AutoDocstring.sublime-settings",
 		"/home/zpriddy/.config/sublime-text-3/Packages/Fold Python/FoldPython.sublime-settings",
 		"/home/zpriddy/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
@@ -1026,22 +1172,11 @@
 		"/home/zpriddy/Github/zPyFirefly/firefly/web_ui/web_ui.py",
 		"/home/zpriddy/Github/zPyFirefly/firefly/web_ui/styles.css",
 		"/home/zpriddy/Github/zPyFirefly/firefly/plugins/zPySmartThings/zPySmartThings_contact_device.py",
-		"/home/zpriddy/Github/zPyFirefly/firefly/plugins/zPySmartThings/zPySmartThings_dimmer_device.py",
-		"/home/zpriddy/Github/zPyFirefly/firefly/plugins/zPySmartThings/zPySmartThings_motion_device.py",
-		"/home/zpriddy/Github/zPyFirefly/firefly/plugins/firefly/firefly_presence_device.py",
-		"/home/zpriddy/Github/zPyFirefly/firefly/web_ui/static/css/bootstrap.css",
-		"/home/zpriddy/Github/zPyFirefly/firefly/web_ui/static/css/bootstrap.min.css",
-		"/home/zpriddy/Github/zPyFirefly/firefly/web_ui/__init__.py",
-		"/home/zpriddy/Github/zPyFirefly/firefly/plugins/pushover/pushover.py",
-		"/home/zpriddy/Github/zPyFirefly/firefly/config/pushover.json",
-		"/home/zpriddy/Github/zPyFirefly/firefly/config/firefly_settings.py",
-		"/home/zpriddy/Github/zPyFirefly/firefly/core/location.py",
-		"/home/zpriddy/Github/zPyFirefly/firefly/plugins/firefly_virtual_devices/firefly_virtual_switch_device.py",
-		"/home/zpriddy/Github/zPyFirefly/firefly/plugins/firefly_virtual_devices/firefly_presence_device.py"
+		"/home/zpriddy/Github/zPyFirefly/firefly/plugins/zPySmartThings/zPySmartThings_dimmer_device.py"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
@@ -1058,6 +1193,51 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"dimmer",
+			"\\s\\s",
+			"icon",
+			"\\n  \"\\S.*\\\": ",
+			"\\\"\\d",
+			"\"\\d.*",
+			"\"\\d.*\\\"",
+			"item.id].state",
+			"\"card\": \"<md-card layout='row' layout-align='center center' layout-wrap><device-card layout='row' flex layout-wrap layout-align='center center'><span  style='cursor: pointer;' ng-click='selectDeviceIndex($index)' layout-align='start center' flex=''> {{::item.name}} </span><md-switch layout-align='end center' ng-model=deviceStates[item.id].state></md-switch></device-card></div><md-card-content ng-show='$index ==selectedDeviceIndex' flex=100 layout-wrap><md-divider></md-divider><div layout='row' layout-align='center center'><md-button flex=50>On</md-button><md-button flex=50>Off</md-button></div><md-divider></md-divider><md-subhead> Turn off in: </md-subhead> <div layout='row' layout-align='center center'><md-button flex=25>30m</md-button><md-button flex=25>1h</md-button><md-button flex=25>2h</md-button><md-button flex=25>4h</md-button></div><br><md-card-actions layout='row' layout-align='start center' flex='100'><md-button flex=50>More Info</md-button></md-card-actions></md-card-content></md-card>\",",
+			"dash_view",
+			"    \"dash_view\": {\n      \"request\": \"on\",\n      \"switch\": {\n        \"false\": {\n          \"command\": {\n            \"switch\": \"off\"\n          },\n          \"text\": \"Off\"\n        },\n        \"true\": {\n          \"command\": {\n            \"switch\": \"on\"\n          },\n          \"default\": true,\n          \"text\": \"On\"\n        }\n      },\n      \"type\": \"switch\"\n    },",
+			"lights",
+			"switch",
+			"{{item",
+			"deviceSta",
+			"http.get",
+			"left",
+			"opem",
+			"config",
+			"icon",
+			"focusI",
+			"selectedIndex",
+			"tab",
+			"theme",
+			"h2",
+			"\\n",
+			"\"",
+			"md-content",
+			"ng-switch",
+			"ListBottomSheet",
+			"show",
+			"showB",
+			"ng-con",
+			"device",
+			"'",
+			"Dial",
+			"Dialog",
+			"DialogController",
+			"showListBottomSheet",
+			"bottomS",
+			"templa",
+			"Favo",
+			"activity",
+			"searc",
+			"inj",
 			"on",
 			"True",
 			"False",
@@ -1140,59 +1320,29 @@
 			"logging.info",
 			"print",
 			"message",
-			"\"hue-light-1\" : {\"setLight\": {\"on\":false}},",
-			"ffEvent('location':{'mode':self._mode})",
-			"Zach Pus",
-			"#ffN",
-			"start",
-			"subType",
-			"ffEvent",
-			"update",
-			"datetime",
-			"data_log",
-			"print",
-			"hour",
-			"300",
-			"l12",
-			"refreshFunction",
-			"')}}\"></",
-			"text",
-			"templa",
-			"                            ",
-			"refreshFunction",
-			">\n",
-			"            \n",
-			"main",
-			"value",
-			"icons",
-			"getAllDevices()",
-			"localhos",
-			"get_lights",
-			"row-",
-			"wrap",
-			".row",
-			"row ",
-			"types",
-			"Command Not Found",
-			"Command Not Fount",
-			"col",
-			": ",
-			"reactor",
-			"run",
-			"send_command",
-			"log",
-			"print",
-			"()\n",
-			"std",
-			"sys",
-			"4"
+			"\"hue-light-1\" : {\"setLight\": {\"on\":false}},"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"",
+			"\\n  ",
+			"\\n",
+			"",
+			"item.id].on",
+			"\"card\": \"<md-card layout='row' layout-align='center center' layout-wrap><device-card layout='row' flex layout-wrap layout-align='center center'><span  style='cursor: pointer;' ng-click='selectDeviceIndex($index)' layout-align='start center' flex=''> {{::item.name}} </span><md-switch layout-align='end center' ng-model=deviceStates[item.id].on></md-switch></device-card></div><md-card-content ng-show='$index ==selectedDeviceIndex' flex=100 layout-wrap><md-divider></md-divider><div layout='row' layout-align='center center'><md-button flex=50>On</md-button><md-button flex=50>Off</md-button></div><md-divider></md-divider><md-subhead> Turn off in: </md-subhead> <div layout='row' layout-align='center center'><md-button flex=25>30m</md-button><md-button flex=25>1h</md-button><md-button flex=25>2h</md-button><md-button flex=25>4h</md-button></div><br><md-card-actions layout='row' layout-align='start center' flex='100'><md-button flex=50>More Info</md-button></md-card-actions></md-card-content></md-card>\",",
+			"card",
+			"\\t\"card\": \"<md-card layout='row' layout-align='center center' layout-wrap><device-card layout='row' flex layout-wrap layout-align='center center'><span  style='cursor: pointer;' ng-click='selectDeviceIndex($index)' layout-align='start center' flex=''> {{::item.name}} </span><md-switch layout-align='end center' ng-model=deviceStates[item.id].state></md-switch></device-card></div><md-card-content ng-show='$index ==selectedDeviceIndex' flex=100 layout-wrap><md-divider></md-divider><div layout='row' layout-align='center center'><md-button flex=50>On</md-button><md-button flex=50>Off</md-button></div><md-divider></md-divider><md-subhead> Turn off in: </md-subhead> <div layout='row' layout-align='center center'><md-button flex=25>30m</md-button><md-button flex=25>1h</md-button><md-button flex=25>2h</md-button><md-button flex=25>4h</md-button></div><br><md-card-actions layout='row' layout-align='start center' flex='100'><md-button flex=50>More Info</md-button></md-card-actions></md-card-content></md-card>\",",
+			"\"card\": \"<md-card layout='row' layout-align='center center' layout-wrap><device-card layout='row' flex layout-wrap layout-align='center center'><span  style='cursor: pointer;' ng-click='selectDeviceIndex($index)' layout-align='start center' flex=''> {{::item.name}} </span><md-switch layout-align='end center' ng-model=deviceStates[item.id].state></md-switch></device-card></div><md-card-content ng-show='$index ==selectedDeviceIndex' flex=100 layout-wrap><md-divider></md-divider><div layout='row' layout-align='center center'><md-button flex=50>On</md-button><md-button flex=50>Off</md-button></div><md-divider></md-divider><md-subhead> Turn off in: </md-subhead> <div layout='row' layout-align='center center'><md-button flex=25>30m</md-button><md-button flex=25>1h</md-button><md-button flex=25>2h</md-button><md-button flex=25>4h</md-button></div><br><md-card-actions layout='row' layout-align='start center' flex='100'><md-button flex=50>More Info</md-button></md-card-actions></md-card-content></md-card>\",",
+			"light",
+			"{{::item",
+			"h3",
+			"",
+			"'",
+			"\"",
 			"true",
 			"false",
 			"\"",
@@ -1229,19 +1379,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "base.html",
+					"file": "serenity.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1182,
+						"buffer_size": 616,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1182,
-								1182
+								211,
+								211
 							]
 						],
 						"settings":
@@ -1277,13 +1427,13 @@
 								7,
 								224,
 								8,
-								18,
-								20,
-								46,
-								11,
-								4,
-								185,
-								252,
+								19,
+								21,
+								21,
+								25,
+								13,
+								85,
+								24,
 								113,
 								1,
 								133,
@@ -1294,7 +1444,703 @@
 								3,
 								46
 							],
+							"open_with_edit": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "static/sample_status.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27857,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27857,
+								27857
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								8,
+								23,
+								21,
+								15,
+								32,
+								8,
+								151,
+								229,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 17668.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/base2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4081,
+								4081
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								8,
+								19,
+								21,
+								17,
+								25,
+								9,
+								23,
+								216,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"open_with_edit": true,
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 810.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "templates/serenity_base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4964,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2032,
+								2032
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								8,
+								23,
+								16,
+								26,
+								50,
+								2,
+								88,
+								235,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 42.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "templates/devices.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2941,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2941,
+								2941
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								8,
+								23,
+								16,
+								43,
+								20,
+								4,
+								57,
+								105,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 870.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "static/device_states.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 334,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								334,
+								334
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								8,
+								23,
+								10,
+								5,
+								14,
+								4,
+								213,
+								181,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "static/base.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 906,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								502,
+								502
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								8,
+								19,
+								21,
+								17,
+								54,
+								14,
+								244,
+								182,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "static/device_views.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7422,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5632,
+								5632
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								8,
+								21,
+								18,
+								18,
+								24,
+								10,
+								104,
+								176,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 168.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "static/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9372,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1562,
+								1562
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								8,
+								19,
+								21,
+								18,
+								7,
+								12,
+								116,
+								119,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 126.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "static/sample_device_views.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26142,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8871,
+								8871
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								8,
+								23,
+								21,
+								20,
+								35,
+								3,
+								35,
+								185,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1304,25 +2150,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/home/zpriddy/.config/sublime-text-3/Packages/User/View In Browser.sublime-settings",
+					"buffer": 10,
+					"file": "core/view_generators.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 435,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								435,
+								435
 							]
 						],
 						"settings":
 						{
-							"auto_complete": true,
+							"auto_complete": false,
 							"c_time":
 							[
 								128,
@@ -1353,13 +2199,13 @@
 								7,
 								224,
 								8,
-								18,
-								20,
-								51,
-								8,
-								14,
-								150,
-								180,
+								23,
+								22,
+								7,
+								6,
+								7,
+								170,
+								102,
 								113,
 								1,
 								133,
@@ -1370,32 +2216,417 @@
 								3,
 								46
 							],
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 3,
+							"open_with_edit": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/home/zpriddy/.config/sublime-text-3/Packages/User/SublimeServer.sublime-settings",
+					"buffer": 11,
+					"file": "core/view_templates/thermostat.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 314,
+						"buffer_size": 1582,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								314,
-								314
+								678,
+								678
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								8,
+								23,
+								22,
+								8,
+								2,
+								2,
+								140,
+								19,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "core/view_templates/switch.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								323,
+								323
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								8,
+								23,
+								22,
+								14,
+								21,
+								12,
+								15,
+								220,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "core/view_templates/light.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1249,
+								1249
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								8,
+								23,
+								22,
+								15,
+								39,
+								4,
+								191,
+								142,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "core/view_templates/dimmer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								382,
+								382
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								8,
+								23,
+								22,
+								16,
+								34,
+								12,
+								161,
+								23,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "core/view_templates/color_light.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1249,
+								1249
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								8,
+								23,
+								22,
+								15,
+								58,
+								0,
+								91,
+								51,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/home/zpriddy/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 746,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								274,
+								274
 							]
 						],
 						"settings":
@@ -1431,13 +2662,13 @@
 								7,
 								224,
 								8,
-								18,
-								20,
-								47,
-								17,
-								4,
-								234,
-								225,
+								21,
+								21,
+								6,
+								54,
+								2,
+								69,
+								85,
 								113,
 								1,
 								133,
@@ -1455,7 +2686,83 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "serenity.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 258,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								258,
+								258
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								8,
+								18,
+								20,
+								52,
+								45,
+								1,
+								59,
+								195,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
 					"type": "text"
 				}
 			]
@@ -1463,7 +2770,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -1508,7 +2815,7 @@
 	"project": "serenity.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 92.0
 	},
 	"save_all_on_build": true,
 	"select_file":

@@ -3,10 +3,10 @@
 
   'use strict';
 
-  var app = angular.module('StarterApp', ['ngMaterial', 'ngMdIcons', 'ngSanitize', 'angular-bind-html-compile', 'ngRoute']);
+  var app = angular.module('StarterApp', ['ngMaterial', 'ngMdIcons', 'ngMessages','ngSanitize', 'angular-bind-html-compile', 'ngRoute']);
 
-  app.controller('AppCtrl', ['$http', '$scope', '$interval', '$mdBottomSheet', '$mdSidenav', '$mdDialog', '$location',
-    function($http, $scope, $interval, $mdBottomSheet, $mdSidenav, $mdDialog, $location)
+  app.controller('AppCtrl', ['$http', '$scope', '$interval',  '$mdBottomSheet', '$mdSidenav', '$mdDialog', '$location', '$mdToast',
+    function($http, $scope, $interval, $mdBottomSheet, $mdSidenav, $mdDialog, $location, $mdToast)
     {
       $scope.toggleSidenav = function(menuId)
       {
@@ -19,7 +19,7 @@
         icon: 'dashboard'
       },
       {
-        link: '/',
+        link: '/routines',
         title: 'Routines',
         icon: 'track_changes'
       },
@@ -35,14 +35,14 @@
         icon: 'delete'
       },
       {
-        link: 'showListBottomSheet($event)',
+        link: '/settings',
         title: 'Settings',
         icon: 'settings'
       }];
 
       $scope.devices = [];
       $scope.deviceTypes = [];
-      $http.get('/static/sample_device_views.json')
+      $http.get('/static/sample_device_views.json', {timeout: 5000})
         .then(function(res)
         {
           $scope.devices = res.data.devices;
@@ -54,10 +54,9 @@
 
       $http.defaults.headers.common["X-Custom-Header"] = "Angular.js";
 
-      this.interval = $interval(function()
+      $interval(function()
       {
-        console.log('Blah')
-        $http.get('/static/sample_status.json?' + (new Date()).getTime()).
+        $http.get('/static/sample_status.json?' + (new Date()).getTime(), {timeout: 5000}).
         success(function(data, status, headers, config)
         {
           $scope.deviceStates = data.devices;
@@ -65,12 +64,33 @@
         });
       }, 5000);
 
-      this.endLongPolling = function()
-      {
-        $interval.cancel(this.interval);
+
+      $scope.routines = [];
+      $http.get('/routines_values', {timeout:5000})
+        .then(function(res)
+        {
+          $scope.routines = res.data;
+        });
+
+      $scope.changeRoutine = function(){
+        console.log(this.routine.id)
+        $http({
+          url: '/API/translator',
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          data: {'device': this.routine.id, 'routine':true, 'force':true}
+        });
+
+      }
+
+      $scope.showSimpleToast = function(message) {
+        $scope.toastSettings = $mdToast.simple().content(message).position('bottom right');
+        $mdToast.show($scope.toastSettings);
       };
 
-      $http.get('/static/sample_status.json')
+
+
+      $http.get('/static/sample_status.json', {timeout: 5000})
         .then(function(res)
         {
           $scope.deviceStates = res.data.devices;
@@ -92,8 +112,18 @@
 
       $scope.switch = function(newValue)
       {
+        var swVal = "off"
+        if (newValue === true){
+          swVal = "on"
+        }
         console.log(newValue);
         console.log(this.item.id)
+        $http({
+          url: '/API/translator',
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          data: {'device': this.item.id, 'command':{'switch':swVal}}
+        })
       };
 
       $scope.changeLocation = function(location) {
@@ -225,7 +255,7 @@
   app.controller('DeviceCtrl', function($http, $scope)
   {
     $scope.devices = [];
-    $http.get('/static/sample_device_views.json')
+    $http.get('/static/sample_device_views.json', {timeout: 5000})
       .then(function(res)
       {
         $scope.devices = res.data.devices;
@@ -262,6 +292,18 @@
                }).
                when('/devices', {
                    templateUrl: '/d',
+               }).
+               when('/users', {
+                   templateUrl: '/users',
+               }).
+               when('/tokens', {
+                   templateUrl: '/tokens',
+               }).
+               when('/settings', {
+                   templateUrl: '/settings',
+               }).
+               when('/routines', {
+                   templateUrl: '/routines',
                }).
                otherwise({
                    redirectTo: '/'

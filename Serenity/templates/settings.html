@@ -1,0 +1,27 @@
+<ui-view>
+  <md-content layout-padding>
+
+
+
+    <md-grid-list md-cols-xs="1" md-cols-sm="2" md-cols-md="4" md-cols-gt-md="6" md-row-height-gt-md="1:1" md-row-height="1:1" md-gutter="12px" md-gutter-gt-sm="8px" layout-padding>
+      <a ng-href="/#/users">
+        <md-grid-tile class="gray" md-rowspan="1" md-colspan="1" md-colspan-sm="1" md-colspan-xs="1" style="background-color: eee">
+        <ng-md-icon icon="people" size=45> </ng-md-icon>
+            <md-grid-tile-footer>
+                <h3>Users</h3>
+            </md-grid-tile-footer>
+        </md-grid-tile>
+        </a>
+
+        <a ng-href="/#/tokens">
+        <md-grid-tile class="gray" md-rowspan="1" md-colspan="1" md-colspan-sm="1" md-colspan-xs="1" style="background-color: eee">
+            <ng-md-icon icon="developer_mode" size=45> </ng-md-icon>
+            <md-grid-tile-footer>
+                <h3>Tokens</h3>
+            </md-grid-tile-footer>
+        </md-grid-tile>
+        </a>
+    </md-grid-list>
+
+     </md-content>
+</ui-view>

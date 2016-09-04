@@ -1,0 +1,41 @@
+<ui-view>
+    <md-content layout="row" layout-align="center center" layout-padding layout-wrap>
+        <md-list layout-align="center center" flex=100 >
+            {% for app, token in tokens %}
+            <md-list-item class="secondary-button-padding" ng-click="doPrimaryAction($event)" layout="row" flex=100 style="height:40" layout-align="start center">
+                <div flex=20>
+                    {{app}}
+                </div>
+                <div flex=60>
+                    {{token}}
+                </div>
+                <md-button flex=20 layout-align="end center" class="md-secondary" ng-href="/remove_token?token={{token}}">Remove</md-button>
+                
+            </md-list-item>
+            <md-divider></md-divider>
+            {% endfor %}
+        </md-list>
+    
+
+    
+    <md-card flex=100 flex-gt-md=50  style="background-color: eee">
+    <md-card-title>
+    <md-card-title-text>
+       <h3>Add New Token</h3>
+      </md-card-title-text>
+      </md-card-title>
+      <md-card-content>
+        <form action="/get_token">
+            <md-input-container>
+                <label>App</label>
+                <input name="app" id="app" type="text" autocorrect="off" autocapitalize="none">
+            </md-input-container>
+            <md-button class="btn btn-lg " type="submit">Add Token</md-button>
+        </form>
+       </md-card-content> 
+    </md-card>
+
+  
+
+    </md-content>
+</ui-view>

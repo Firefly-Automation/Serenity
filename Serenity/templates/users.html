@@ -1,0 +1,38 @@
+<ui-view>
+    <md-content layout="row" layout-align="center center" layout-padding layout-wrap>
+        <md-list layout-align="center center" flex=100 flex-gt-md=50  layout-wrap>
+            {% for user in users %}
+            <md-list-item class="secondary-button-padding" ng-click="doPrimaryAction($event)" layout="row" flex-sm=100  flex-md=50 style="height:40" layout-align="start center">
+                <div flex=70>
+                    {{user}}
+                </div>
+                {% if user != 'admin' %}
+                <md-button flex=20 layout-align="end center" class="md-secondary" ng-href="/remove_user?username={{user}}">Remove</md-button>
+                {% endif %}
+            </md-list-item>
+            <md-divider></md-divider>
+            {% endfor %}
+        </md-list>
+
+        <md-card flex=100 flex-gt-md=50 style="background-color: eee">
+            <md-card-title>
+                <md-card-title-text>
+                    <h3>Add New User</h3>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+                <form action="/add_user">
+                    <md-input-container>
+                        <label>Usernmae</label>
+                        <input name="username" id="username" type="text" autocorrect="off" autocapitalize="none">
+                    </md-input-container>
+                    <md-input-container>
+                        <label>Password</label>
+                        <input name="password" id="password" type="password">
+                    </md-input-container>
+                    <md-button class="btn btn-lg " type="submit">Add User</md-button>
+                </form>
+            </md-card-content>
+        </md-card>
+    </md-content>
+</ui-view>

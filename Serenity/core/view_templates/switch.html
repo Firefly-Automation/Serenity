@@ -1,13 +1,13 @@
 <md-card layout='row' layout-align='center center' layout-wrap>
-    <device-card layout='row' flex layout-wrap layout-align='center center'><span style='cursor: pointer;' ng-click='selectDeviceIndex($index)' layout-align='start center' flex=''> {{::item.name}} </span>
-        <md-switch layout-align='end center' ng-model=deviceStates[item.id][deviceStatus.views.dash_view.request]></md-switch>
+    <device-card layout='row' flex layout-wrap layout-align='center center'><span style='cursor: pointer;' ng-click='selectDeviceIndex($index)' layout-align='start center' flex=''> {{item.name}} </span>
+        <md-switch layout-align='end center' ng-model=deviceStates[item.id][deviceStatus.views.dash_view.request] ng-click='switch(!deviceStates[item.id].on)'></md-switch>
     </device-card>
     </div>
-    <md-card-content ng-show='$index ==selectedDeviceIndex' flex=100 layout-wrap>
+    <md-card-content ng-show='$index==selectedDeviceIndex' flex=100 layout-wrap>
         <md-divider></md-divider>
         <div layout='row' layout-align='center center'>
-            <md-button flex=50>On</md-button>
-            <md-button flex=50>Off</md-button>
+            <md-button flex=50 ng-click='switch(true)'>On</md-button>
+            <md-button flex=50 ng-click='switch(false)'>Off</md-button>
         </div>
         <md-divider></md-divider>
         <md-subhead> Turn off in: </md-subhead>

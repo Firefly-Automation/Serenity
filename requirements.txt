@@ -1,0 +1,4 @@
+configparser
+Flask
+django-htmlmin
+flask_security
