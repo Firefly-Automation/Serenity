@@ -2,7 +2,7 @@
 # @Author: Zachary Priddy
 # @Date:   2016-08-29 12:04:59
 # @Last Modified by:   Zachary Priddy
-# @Last Modified time: 2016-10-13 00:34:55
+# @Last Modified time: 2016-10-13 01:18:31
 
 import json
 
@@ -124,7 +124,7 @@ def api_translator():
 def alexaAPI():
   command = request.json
   url = API_PATHS['alexa']
-  request.post(url, json=command)
+  requests.post(url, json=command)
 
 @app.route('/API/views/devices')
 @login_required
