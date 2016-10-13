@@ -2,11 +2,14 @@
 # @Author: Zachary Priddy
 # @Date:   2016-08-29 12:46:04
 # @Last Modified by:   Zachary Priddy
-# @Last Modified time: 2016-10-13 01:07:07
+# @Last Modified time: 2016-10-13 01:11:11
 
 from Serenity import app
 
-from flask_security import RoleMixin, SQLAlchemyUserDatastore, Security, UserMixin, auth_token_required, current_user, login_required, request
+import json 
+
+from flask import request
+from flask_security import RoleMixin, SQLAlchemyUserDatastore, Security, UserMixin, auth_token_required, current_user, login_required
 from flask_security.utils import encrypt_password
 from flask_sqlalchemy import SQLAlchemy
 from functools import wraps
