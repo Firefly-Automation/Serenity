@@ -2,7 +2,7 @@
 # @Author: Zachary Priddy
 # @Date:   2016-08-29 12:03:57
 # @Last Modified by:   Zachary Priddy
-# @Last Modified time: 2016-08-30 10:48:11
+# @Last Modified time: 2016-10-13 00:36:06
 
 from configparser import ConfigParser
 from flask import Flask, render_template
@@ -32,12 +32,15 @@ app.config['SECRET_KEY'] = 'super-secret'
 app.config['SECURITY_PASSWORD_HASH'] = 'bcrypt'
 app.config['SECURITY_PASSWORD_SALT'] = 'MyPasswordSalt'
 
+ff_host = FF_host + ':' + str(FF_port)
 
 API_PATHS = {
-  'routines' : FF_host + ":" + str(FF_port) + '/API/views/routine',
-  'mode' : FF_host + str(FF_port)  + ":" + '/API/mode',
-  'device_vews' : FF_host + str(FF_port)  + ":" + '/API/views/devices',
-  'all_device_status' : FF_host + str(FF_port)  + ":" + '/API/status/devices/all'
+  'routines' : FF_host + ":" + str(FF_port) + '/API/core/views/routine',
+  'mode' : FF_host + ":" + str(FF_port)  + '/API/mode',
+  'device_views' : FF_host +  ":" + str(FF_port)  + '/API/core/views/devices',
+  'all_device_status' : FF_host + ":" + str(FF_port)  + '/API/core/status/devices/all',
+  'command' : FF_host + ":" + str(FF_port)  + '/API/command',
+  'alexa' : ff_host + '/API/alexa'
 }
 
 

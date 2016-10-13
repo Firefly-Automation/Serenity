@@ -42,11 +42,14 @@
 
       $scope.devices = [];
       $scope.deviceTypes = [];
-      $http.get('/static/sample_device_views.json', {timeout: 5000})
+      //$http.get('/static/sample_device_views.json', {timeout: 5000})
+      $http.get('/API/views/devices', {timeout: 5000})
         .then(function(res)
         {
           $scope.devices = res.data.devices;
+          console.log(res.data.devices)
           $scope.deviceTypes = res.data.types;
+          console.log(res.data)
         });
 
       $scope.deviceStates = []
@@ -56,7 +59,8 @@
 
       $interval(function()
       {
-        $http.get('/static/sample_status.json?' + (new Date()).getTime(), {timeout: 5000}).
+        //$http.get('/static/sample_status.json?' + (new Date()).getTime(), {timeout: 5000}).
+        $http.get('/API/status/devices/all?' + (new Date()).getTime(), {timeout: 5000}).
         success(function(data, status, headers, config)
         {
           $scope.deviceStates = data.devices;
@@ -90,7 +94,8 @@
 
 
 
-      $http.get('/static/sample_status.json', {timeout: 5000})
+      //$http.get('/static/sample_status.json', {timeout: 5000})
+      $http.get('/API/status/devices/all', {timeout: 5000})
         .then(function(res)
         {
           $scope.deviceStates = res.data.devices;
@@ -125,6 +130,44 @@
           data: {'device': this.item.id, 'command':{'switch':swVal}}
         })
       };
+
+      $scope.presence = function(newValue)
+      {
+        console.log(newValue);
+        console.log(this.item.id);
+	console.log("SET PRESENCE")
+        $http({
+          url: '/API/translator',
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          data: {'device': this.item.id, 'command':{'presence':newValue}}
+        })
+      };
+
+      $scope.setTarget = function(target)
+      {
+        console.log(target);
+        console.log(this.item.id)
+        $http({
+          url: '/API/translator',
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          data: {'device': this.item.id, 'command':{'setTarget':{'target':target-.5}}}
+        })
+      };
+
+      $scope.customCommand = function(command)
+      {
+        console.log(command);
+        console.log(this.item.id)
+        $http({
+          url: '/API/translator',
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          data: {'device': this.item.id, 'command':command}
+        })
+      };
+
 
       $scope.changeLocation = function(location) {
         console.log('Chnage Location')
@@ -255,10 +298,13 @@
   app.controller('DeviceCtrl', function($http, $scope)
   {
     $scope.devices = [];
-    $http.get('/static/sample_device_views.json', {timeout: 5000})
+    $http.get('/API/views/devices', {timeout: 5000})
+    //$http.get('/static/sample_device_views.json', {timeout: 5000})
       .then(function(res)
       {
         $scope.devices = res.data.devices;
+        $scope.types = res.data.types;
+        $scope.sortType = 'name'
       });
 
   });

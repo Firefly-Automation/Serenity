@@ -160,6 +160,60 @@
     "id": "zwave-node-9",
     "name": "Bedroom Fan",
     "type": "light"
+  }, 
+  {
+    "card": "<md-card> <div layout=row layout-align='center center'> <device-card layout=row flex layout-wrap layout-align='center center'><span flex layout=row><md-title layout-align='center center' style='cursor: pointer;' ng-click=selectDeviceIndex($index)>{{ item.name }}</md-title></span> <md-card-content layout-align='center center' style=padding:7px layout=row> <md-button> <ng-md-icon icon=expand_more></ng-md-icon> </md-button><span layout-align='center center' style=font-size:20px>{{deviceStates[item.id].target.target}}</span> <md-button> <ng-md-icon icon=expand_less></ng-md-icon> </md-button> </div> </device-card> <md-card-content ng-show='$index ==selectedDeviceIndex'> <md-divider></md-divider><div layout=row layout-align='center center' layout-wrap> <md-button flex=33>Cool</md-button> <md-button flex=33>Range</md-button> <md-button flex=33>Heat</md-button> </div> <div layout=row layout-align='center center' layout-wrap> <md-button flex=100>Off</md-button> </div> <br> <md-card-actions layout=row layout-align='start center'> <md-button>More Info</md-button> </md-card-actions> </md-card-content> </md-card-content> </md-card>",
+    "dash_view": {
+      "request": "state",
+      "state": {
+        "awaycool": {
+          "click": "false",
+          "color": "blue",
+          "command": "update",
+          "default": true,
+          "value": "76.5 (away)"
+        },
+        "awayheat": {
+          "click": "false",
+          "color": "red",
+          "command": "update",
+          "default": true,
+          "value": "76.5 (away)"
+        },
+        "awayidle": {
+          "click": "true",
+          "color": "grey",
+          "command": "update",
+          "value": "76.5 (away)"
+        },
+        "cool": {
+          "click": "false",
+          "color": "blue",
+          "command": "update",
+          "default": true,
+          "value": 76.5
+        },
+        "heat": {
+          "click": "false",
+          "color": "red",
+          "command": "update",
+          "default": true,
+          "value": "76.5 (away)"
+        },
+        "idle": {
+          "click": "true",
+          "color": "grey",
+          "command": "update",
+          "value": 76.5
+        }
+      },
+      "type": "stateValue"
+    },
+    "display": true,
+    "id": "nest",
+    "name": "nest",
+    "target": "76.5",
+    "type": "thermostat"
   }
 ],
   "types":[

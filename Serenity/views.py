@@ -2,7 +2,7 @@
 # @Author: Zachary Priddy
 # @Date:   2016-08-29 12:04:59
 # @Last Modified by:   Zachary Priddy
-# @Last Modified time: 2016-08-30 11:00:46
+# @Last Modified time: 2016-10-13 00:34:55
 
 import json
 
@@ -20,17 +20,22 @@ from htmlmin.minify import html_minify
 @app.route('/')
 @login_required
 def index():
-  return html_minify(render_template("serenity_base.html", title="Base"))
+  return html_minify(render_template("serenity_base.html", title="Base", user=current_user.email))
 
 @login_required
 @app.route('/devices')
 def page2():
-  return html_minify(render_template("devices.html", title="Devices"))
+  url = API_PATHS['all_device_status']
+  deviceTypes = requests.get(url).json().get('types')
+  return html_minify(render_template("devices.html", title="Devices", deviceTypes=deviceTypes))
+
 
 @login_required
 @app.route('/d')
 def d():
-  return html_minify(render_template('devices.html'))
+  url = API_PATHS['all_device_status']
+  deviceTypes = requests.get(url).json().get('types')
+  return html_minify(render_template("devices.html", title="Devices", deviceTypes=deviceTypes))
 
 @app.route('/c')
 def c():
@@ -104,10 +109,39 @@ def routines():
 @login_required
 def api_translator():
   try:
-    command = json.dumps(request.json)
-    new_command = {'myCommand':command}
-    url = FF_host + ":" + str(FF_port) + "/manual_command?myCommand=" + str(command)
-    requests.get(url)
+    command = request.json
+    print command
+    #new_command = {'myCommand':command}
+    #url = FF_host + ":" + str(FF_port) + "/manual_command?myCommand=" + str(command)
+    url = API_PATHS['command']
+    requests.post(url, json=command)
     return "COMMAND SENT"
   except:
     return "UNKNOWN ERROR"
+
+@app.route('/API/alexa', methods=['POST'])
+@auth_token_required
+def alexaAPI():
+  command = request.json
+  url = API_PATHS['alexa']
+  request.post(url, json=command)
+
+@app.route('/API/views/devices')
+@login_required
+def device_views():
+  url = API_PATHS['device_views']
+  try:
+    deviceViews = requests.get(url).json()
+    return jsonify(deviceViews)
+  except:
+    return ""
+
+@app.route('/API/status/devices/all')
+@login_required
+def devices_status_all():
+  url = API_PATHS['all_device_status']
+  try:
+    deviceViews = requests.get(url).json()
+    return jsonify(deviceViews)
+  except:
+    return ""

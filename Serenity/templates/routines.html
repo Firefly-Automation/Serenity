@@ -1,24 +1,19 @@
 {% raw %}
 <ui-view>
-  <md-content layout-padding ng-cloak  layout="row" layout-align="center center">
-
-
-
-    <md-grid-list md-cols-xs="1" md-cols-sm="2" md-cols-md="4" md-cols-gt-md="5" md-row-height-gt-md="1:1" md-row-height="1:1"  md-gutter-sm="20px" md-gutter-gt-sm="20px" md-gutter-gt-md="40px" layout-padding flex=95 > 
-
-        <md-grid-tile class="gray" md-rowspan="1" md-colspan="1" md-colspan-sm="1" md-colspan-xs="1" style="background-color: eee" ng-repeat="(name, routine) in routines" ng-click="changeRoutine(); showSimpleToast('Executed ' + name + '!')">
-        <i class="material-icons" style="font-size:48px" >{{routine.icon}}</i>
-            <md-grid-tile-footer>
-                <h3>{{name}}</h3>
-            </md-grid-tile-footer>
-        </md-grid-tile>
-
-                
-
-    </md-grid-list>
-
-     </md-content>
+    <md-content layout-padding ng-cloak layout-align="center center">
+        <div layout="row" layout-wrap class='md-padding' style="padding-right:10px" layout-align="center center">
+            <div ng-repeat="(name, routine) in routines" ng-click="changeRoutine(); showSimpleToast('Executed ' + name + '!')" flex-sm=50 flex-md=33 flex-lg=20 flex-gt-lg="15" style="padding: 10px; " >
+                <md-card layout-align="center center" style="cursor: pointer; height:0;width: 100%;padding-bottom: 50%; padding-top: 50%; background-color: eee">
+                    <i class="material-icons" style="font-size:48px">{{routine.icon}}</i>
+                    <br>
+                    <md-card-title>
+                        <md-card-title-text>
+                            <span class="md-headline">{{name}}</span>
+                        </md-card-title-text>
+                    </md-card-title>
+                </md-card>
+            </div>
+        </div>
+    </md-content>
 </ui-view>
-
-
 {% endraw %}
