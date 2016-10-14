@@ -2,10 +2,11 @@
 # @Author: Zachary Priddy
 # @Date:   2016-08-29 12:46:04
 # @Last Modified by:   Zachary Priddy
-# @Last Modified time: 2016-10-14 16:34:57
+# @Last Modified time: 2016-10-14 16:36:03
 
 from Serenity import app
 
+import logging
 
 from flask import request
 from flask.ext.security.decorators import _get_unauthorized_response
@@ -63,13 +64,14 @@ def auth_token_required(fn):
   @wraps(fn)
   def decorated(*args, **kwargs):
     # return fn(*args, **kwargs)
+    rToken = None
     if request.get_json():
       rToken = request.get_json().get("token")
     argsToken = request.args.get('token')
     # return _get_unauthorized_response()
     for token in AuthToken.query.all():
       if rToken == token.token or argsToken == token.token:
-        print token.user_id
+        logging.debug(token.user_id)
         return fn(*args, **kwargs)
     return _get_unauthorized_response()
   return decorated
