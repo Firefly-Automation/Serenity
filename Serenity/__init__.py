@@ -2,10 +2,10 @@
 # @Author: Zachary Priddy
 # @Date:   2016-08-29 12:03:57
 # @Last Modified by:   Zachary Priddy
-# @Last Modified time: 2016-10-13 00:36:06
+# @Last Modified time: 2016-10-13 21:35:45
 
 from configparser import ConfigParser
-from flask import Flask, render_template
+from flask import Flask
 
 
 app = Flask(__name__)
@@ -14,8 +14,8 @@ config = ConfigParser()
 config.read('serenity.config')
 
 fireflyConfig = config['FIREFLY BACKEND']
-FF_host = fireflyConfig.get('host','http://localhost')
-FF_port = fireflyConfig.getint('port',6001)
+FF_host = fireflyConfig.get('host', 'http://localhost')
+FF_port = fireflyConfig.getint('port', 6001)
 
 
 serenityConfig = config['SERENITY']
@@ -35,15 +35,14 @@ app.config['SECURITY_PASSWORD_SALT'] = 'MyPasswordSalt'
 ff_host = FF_host + ':' + str(FF_port)
 
 API_PATHS = {
-  'routines' : FF_host + ":" + str(FF_port) + '/API/core/views/routine',
-  'mode' : FF_host + ":" + str(FF_port)  + '/API/mode',
-  'device_views' : FF_host +  ":" + str(FF_port)  + '/API/core/views/devices',
-  'all_device_status' : FF_host + ":" + str(FF_port)  + '/API/core/status/devices/all',
-  'command' : FF_host + ":" + str(FF_port)  + '/API/command',
-  'alexa' : ff_host + '/API/alexa'
+    'routines': FF_host + ":" + str(FF_port) + '/API/core/views/routine',
+    'mode': FF_host + ":" + str(FF_port) + '/API/mode',
+    'device_views': FF_host + ":" + str(FF_port) + '/API/core/views/devices',
+    'all_device_status': FF_host + ":" + str(FF_port) + '/API/core/status/devices/all',
+    'command': FF_host + ":" + str(FF_port) + '/API/command',
+    'alexa': ff_host + '/API/alexa',
+    'ifttt': ff_host + '/API/ifttt'
 }
-
-
 
 
 import Serenity.models
