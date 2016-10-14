@@ -2,7 +2,7 @@
 # @Author: Zachary Priddy
 # @Date:   2016-08-29 12:03:57
 # @Last Modified by:   Zachary Priddy
-# @Last Modified time: 2016-10-13 21:35:45
+# @Last Modified time: 2016-10-14 16:10:22
 
 from configparser import ConfigParser
 from flask import Flask
@@ -35,13 +35,14 @@ app.config['SECURITY_PASSWORD_SALT'] = 'MyPasswordSalt'
 ff_host = FF_host + ':' + str(FF_port)
 
 API_PATHS = {
-    'routines': FF_host + ":" + str(FF_port) + '/API/core/views/routine',
-    'mode': FF_host + ":" + str(FF_port) + '/API/mode',
-    'device_views': FF_host + ":" + str(FF_port) + '/API/core/views/devices',
-    'all_device_status': FF_host + ":" + str(FF_port) + '/API/core/status/devices/all',
-    'command': FF_host + ":" + str(FF_port) + '/API/command',
+    'routines': ff_host + '/API/core/views/routine',
+    'mode': ff_host + '/API/mode',
+    'device_views': ff_host + '/API/core/views/devices',
+    'all_device_status': ff_host + '/API/core/status/devices/all',
+    'command': ff_host + '/API/command',
     'alexa': ff_host + '/API/alexa',
-    'ifttt': ff_host + '/API/ifttt'
+    'ifttt': ff_host + '/API/ifttt',
+    'locative': ff_host + '/API/locative'
 }
 
 
