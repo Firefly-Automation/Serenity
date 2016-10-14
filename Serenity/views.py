@@ -2,7 +2,7 @@
 # @Author: Zachary Priddy
 # @Date:   2016-08-29 12:04:59
 # @Last Modified by:   Zachary Priddy
-# @Last Modified time: 2016-10-13 21:43:00
+# @Last Modified time: 2016-10-13 21:52:01
 
 import json
 
@@ -16,6 +16,7 @@ from flask import redirect
 from flask import render_template
 from flask import request
 
+from flask_security import login_required
 from htmlmin.minify import html_minify
 
 

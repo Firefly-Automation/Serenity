@@ -2,7 +2,7 @@
 # @Author: Zachary Priddy
 # @Date:   2016-08-29 12:46:04
 # @Last Modified by:   Zachary Priddy
-# @Last Modified time: 2016-10-13 21:49:13
+# @Last Modified time: 2016-10-13 21:53:09
 
 from Serenity import app
 
@@ -27,8 +27,8 @@ db = SQLAlchemy(app)
 
 # Define models
 roles_users = db.Table('roles_users',
-                        db.Column('user_id', db.Integer(), db.ForeignKey('user.id')),
-                        db.Column('role_id', db.Integer(), db.ForeignKey('role.id')))
+                       db.Column('user_id', db.Integer(),db.ForeignKey('user.id')),
+                       db.Column('role_id', db.Integer(), db.ForeignKey('role.id')))
 
 
 class AuthToken(db.Model):
@@ -60,20 +60,23 @@ security = Security(app, user_datastore)
 
 # Auth Token Check
 def auth_token_required(fn):
-    @wraps(fn)
-    def decorated(*args, **kwargs):
-        print request.get_json()
-        rToken = request.get_json().get("token")
-        argsToken = request.args.get('token')
-        for token in AuthToken.query.all():
-            if rToken == token.token or argsToken == token.token:
-                print token.user_id
-                return fn(*args, **kwargs)
-        return _get_unauthorized_response()
-    return decorated
-
+  @wraps(fn)
+  def decorated(*args, **kwargs):
+    # return fn(*args, **kwargs)
+    print request.get_json()
+    rToken = request.get_json().get("token")
+    argsToken = request.args.get('token')
+    # return _get_unauthorized_response()
+    for token in AuthToken.query.all():
+      if rToken == token.token or argsToken == token.token:
+        print token.user_id
+        return fn(*args, **kwargs)
+    return _get_unauthorized_response()
+  return decorated
 
 # Create a user to test with
+
+
 @app.before_first_request
 def create_user():
   adminUser = False
@@ -82,7 +85,8 @@ def create_user():
     if user.email == 'admin':
       adminUser = True
   if not adminUser:
-    user_datastore.create_user(email='admin', password=encrypt_password('FireflyPassword1234'))
+    user_datastore.create_user(
+        email='admin', password=encrypt_password('FireflyPassword1234'))
     db.session.commit()
 
 
@@ -93,7 +97,8 @@ def add_user(username, password):
     if user.email == username:
       userInDB = True
   if not userInDB:
-    user_datastore.create_user(email=username, password=encrypt_password(password))
+    user_datastore.create_user(
+        email=username, password=encrypt_password(password))
     db.session.commit()
     return True
   return False
