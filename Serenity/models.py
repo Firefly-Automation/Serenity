@@ -2,7 +2,7 @@
 # @Author: Zachary Priddy
 # @Date:   2016-08-29 12:46:04
 # @Last Modified by:   Zachary Priddy
-# @Last Modified time: 2016-10-13 21:53:09
+# @Last Modified time: 2016-10-14 16:34:57
 
 from Serenity import app
 
@@ -63,8 +63,8 @@ def auth_token_required(fn):
   @wraps(fn)
   def decorated(*args, **kwargs):
     # return fn(*args, **kwargs)
-    print request.get_json()
-    rToken = request.get_json().get("token")
+    if request.get_json():
+      rToken = request.get_json().get("token")
     argsToken = request.args.get('token')
     # return _get_unauthorized_response()
     for token in AuthToken.query.all():
