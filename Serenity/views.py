@@ -2,7 +2,7 @@
 # @Author: Zachary Priddy
 # @Date:   2016-08-29 12:04:59
 # @Last Modified by:   Zachary Priddy
-# @Last Modified time: 2016-10-14 16:27:57
+# @Last Modified time: 2016-10-14 16:29:15
 
 import json
 
@@ -144,10 +144,10 @@ def iftttAPI():
 @app.route('/API/locative', methods=['GET', 'POST'])
 @auth_token_required
 def locativeAPI():
-  print request.query_string
+  print request.args
   url = API_PATHS['locative'] + '?' + request.query_string
   #return str(requests.post(url, data=request.query_string))
-  return request.query_string
+  return request.args
 
 @app.route('/API/views/devices')
 @login_required
