@@ -2,7 +2,7 @@
 # @Author: Zachary Priddy
 # @Date:   2016-08-29 12:04:59
 # @Last Modified by:   Zachary Priddy
-# @Last Modified time: 2016-10-14 16:38:48
+# @Last Modified time: 2016-10-15 22:51:51
 
 import json
 
@@ -138,7 +138,8 @@ def alexaAPI():
 def iftttAPI():
   command = request.json
   url = API_PATHS['ifttt']
-  return json.dumps(requests.post(url, json=command).json())
+  requests.post(url, json=command)
+  return "OK"
 
 
 @app.route('/API/locative', methods=['GET', 'POST'])
