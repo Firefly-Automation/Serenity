@@ -152,7 +152,7 @@
           url: '/API/translator',
           method: 'POST',
           headers: {'Content-Type': 'application/json'},
-          data: {'device': this.item.id, 'command':{'setTarget':{'target':target-.5}}}
+          data: {'device': this.item.id, 'command':{'setTarget':{'target':target}}}
         })
       };
 
