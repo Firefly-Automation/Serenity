@@ -2,7 +2,7 @@
 # @Author: Zachary Priddy
 # @Date:   2016-08-29 12:03:57
 # @Last Modified by:   Zachary Priddy
-# @Last Modified time: 2016-10-14 16:10:22
+# @Last Modified time: 2016-10-20 17:32:22
 
 from configparser import ConfigParser
 from flask import Flask
@@ -45,6 +45,14 @@ API_PATHS = {
     'locative': ff_host + '/API/locative'
 }
 
+
+def _force_https():
+  from flask import _request_ctx_stack
+  if _request_ctx_stack is not None:
+    reqctx = _request_ctx_stack.top
+    reqctx.url_adapter.url_scheme = 'https'
+
+app.before_request(_force_https)
 
 import Serenity.models
 import Serenity.views
