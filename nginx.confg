@@ -1,0 +1,42 @@
+##
+# This is the nginx config for Firefly
+# Please replace <<DOMAIN>> belwo with the external domain that you have
+# and please make sure that port 443 is forwarded to the raspberryPi. This will 
+# be required for LetsEncrypt and remote access. If you dont want to use LetsEncypt 
+# you will have to generate your own certs and update the file below
+##
+
+server {
+
+	# SSL configuration
+	listen 443 ssl;
+	server_name <<DOMAIN>>;
+
+	ssl_certificate /etc/letsencrypt/live/<<DOMAIN>>/fullchain.pem;
+	ssl_certificate_key /etc/letsencrypt/live/<<DOMAIN>>/privkey.pem;
+
+	ssl on;
+    	ssl_session_cache  builtin:1000  shared:SSL:10m;
+    	ssl_protocols  TLSv1 TLSv1.1 TLSv1.2;
+    	ssl_ciphers HIGH:!aNULL:!eNULL:!EXPORT:!CAMELLIA:!DES:!MD5:!PSK:!RC4;
+	ssl_prefer_server_ciphers on;
+
+
+	location / {
+		# First attempt to serve request as file, then
+		# as directory, then fall back to displaying a 404.
+		#try_files $uri $uri/ =404;
+
+		proxy_max_temp_file_size 0;
+      		proxy_set_header        Host $host;
+      		proxy_set_header        X-Real-IP $remote_addr;
+      		proxy_set_header        X-Forwarded-For $proxy_add_x_forwarded_for;
+      		proxy_set_header        X-Forwarded-Proto $scheme;
+
+      		# Fix the “It appears that your reverse proxy set up is broken" error.
+      		proxy_pass          http://localhost:8080;
+      		proxy_read_timeout  90;
+
+      		proxy_redirect      http://localhost:8091 https://<<DOMAIN>>
+	}
+}
