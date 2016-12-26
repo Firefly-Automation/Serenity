@@ -42,6 +42,6 @@ server {
       		proxy_pass          http://localhost:8080;
       		proxy_read_timeout  90;
 
-      		proxy_redirect      http://localhost:8080 https://<<DOMAIN>>
+      		proxy_redirect      http://localhost:8080 https://<<DOMAIN>>;
 	}
 }
