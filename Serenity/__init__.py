@@ -5,13 +5,13 @@
 # @Last Modified time: 2016-10-20 17:32:22
 
 from configparser import ConfigParser
-from flask import Flask
+from flask import Flask, request, redirect
 
 
 app = Flask(__name__)
 
 config = ConfigParser()
-config.read('serenity.config')
+config.read('/opt/firefly_system/serenity.config')
 
 fireflyConfig = config['FIREFLY BACKEND']
 FF_host = fireflyConfig.get('host', 'http://localhost')
@@ -32,6 +32,7 @@ app.config['SECRET_KEY'] = 'super-secret'
 app.config['SECURITY_PASSWORD_HASH'] = 'bcrypt'
 app.config['SECURITY_PASSWORD_SALT'] = 'MyPasswordSalt'
 
+
 ff_host = FF_host + ':' + str(FF_port)
 
 API_PATHS = {
@@ -45,14 +46,12 @@ API_PATHS = {
     'locative': ff_host + '/API/locative'
 }
 
-
-def _force_https():
-  from flask import _request_ctx_stack
-  if _request_ctx_stack is not None:
-    reqctx = _request_ctx_stack.top
-    reqctx.url_adapter.url_scheme = 'https'
-
-app.before_request(_force_https)
+@app.before_request
+def before_request():
+    if request.url.startswith('http://'):
+        url = request.url.replace('http://', 'https://', 1)
+        code = 301
+        return redirect(url, code=code)
 
 import Serenity.models
 import Serenity.views
