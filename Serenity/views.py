@@ -106,6 +106,11 @@ def routinesValues():
   routines = requests.get(API_PATHS['routines']).json()
   return jsonify(**routines)
 
+@app.route('/reinstall_devices')
+@login_required
+def reinstallDevices():
+  requests.get(API_PATHS['reinstall_devices'])
+
 
 @app.route('/routines')
 @login_required

@@ -92,6 +92,11 @@
         $mdToast.show($scope.toastSettings);
       };
 
+      $scope.reinstallDevices = function()
+      {
+        $http.get('/reinstall_devices', {timeout:5000})
+      }
+
 
 
       //$http.get('/static/sample_status.json', {timeout: 5000})

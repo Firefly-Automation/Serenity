@@ -43,7 +43,8 @@ API_PATHS = {
     'command': ff_host + '/API/command',
     'alexa': ff_host + '/API/alexa',
     'ifttt': ff_host + '/API/ifttt',
-    'locative': ff_host + '/API/locative'
+    'locative': ff_host + '/API/locative',
+    'reinstall_devices': ff_host + '/support/reinstall_devices'
 }
 
 @app.before_request
