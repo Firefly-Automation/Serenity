@@ -11,7 +11,7 @@ from flask import Flask, request, redirect
 app = Flask(__name__)
 
 config = ConfigParser()
-config.read('/opt/firefly_system/serenity.config')
+config.read('/opt/firefly_system/config/serenity.config')
 
 fireflyConfig = config['FIREFLY BACKEND']
 FF_host = fireflyConfig.get('host', 'http://localhost')
