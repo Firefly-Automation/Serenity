@@ -44,7 +44,8 @@ API_PATHS = {
     'alexa': ff_host + '/API/alexa',
     'ifttt': ff_host + '/API/ifttt',
     'locative': ff_host + '/API/locative',
-    'reinstall_devices': ff_host + '/support/reinstall_devices'
+    'reinstall_devices': ff_host + '/support/reinstall_devices',
+    'update_habridge': ff_host + '/support/habridge/config'
 }
 
 @app.before_request

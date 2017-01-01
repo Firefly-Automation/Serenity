@@ -97,6 +97,11 @@
         $http.get('/reinstall_devices', {timeout:5000})
       }
 
+      $scope.haBridgeUpdate = function()
+      {
+        $http.get('/update_habridge', {timeout:5000})
+      }
+
 
 
       //$http.get('/static/sample_status.json', {timeout: 5000})
