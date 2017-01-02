@@ -6,10 +6,10 @@
 
 from Serenity import *
 
-if S_debug:
-  app.run(host=S_host, port=S_port, threaded=True)
+#if S_debug:
+app.run(host=S_host, port=S_port, threaded=True, debug=S_debug)
 
-else:
-  from gevent.wsgi import WSGIServer
-  http_server = WSGIServer((S_host, S_port), app)
-  http_server.serve_forever()
+#else:
+#  from gevent.wsgi import WSGIServer
+#  http_server = WSGIServer((S_host, S_port), app)
+#  http_server.serve_forever()

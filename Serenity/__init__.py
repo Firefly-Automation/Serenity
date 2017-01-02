@@ -6,9 +6,13 @@
 
 from configparser import ConfigParser
 from flask import Flask, request, redirect
+from werkzeug.contrib.fixers import ProxyFix
 
 
 app = Flask(__name__)
+
+# This is a fix for https redirects
+app.wsgi_app = ProxyFix(app.wsgi_app)
 
 config = ConfigParser()
 config.read('/opt/firefly_system/config/serenity.config')
@@ -48,12 +52,6 @@ API_PATHS = {
     'update_habridge': ff_host + '/support/habridge/config'
 }
 
-@app.before_request
-def before_request():
-    if request.url.startswith('http://'):
-        url = request.url.replace('http://', 'https://', 1)
-        code = 301
-        return redirect(url, code=code)
 
 import Serenity.models
 import Serenity.views
