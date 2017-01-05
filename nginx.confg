@@ -45,3 +45,14 @@ server {
       		proxy_redirect      off;
 	}
 }
+
+server {
+
+    listen 6009;
+
+    location /audio {
+		root /var/www/firefly_www/audio;
+		try_files $uri $uri/ =404;
+	}
+
+}

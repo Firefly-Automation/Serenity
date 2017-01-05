@@ -30,7 +30,7 @@ S_debug = serenityConfig.getboolean('debug', False)
 app.config['DEBUG'] = serenityConfig.getboolean('debug', False)
 
 # DATABSE LINK FOR USERS
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///Serenity.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////opt/firefly_system/config/Serenity.db'
 app.config['SECRET_KEY'] = 'super-secret'
 
 app.config['SECURITY_PASSWORD_HASH'] = 'bcrypt'
