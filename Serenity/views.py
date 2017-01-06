@@ -111,6 +111,11 @@ def routinesValues():
 def reinstallDevices():
   requests.get(API_PATHS['reinstall_devices'])
 
+@app.route('/reinstall_routines')
+@login_required
+def reinstallRoutines():
+  requests.get(API_PATHS['reinstall_routines'])
+
 @app.route('/update_habridge')
 @login_required
 def updateHabridge():

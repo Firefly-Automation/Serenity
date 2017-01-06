@@ -49,6 +49,7 @@ API_PATHS = {
     'ifttt': ff_host + '/API/ifttt',
     'locative': ff_host + '/API/locative',
     'reinstall_devices': ff_host + '/support/reinstall_devices',
+    'reinstall_routines': ff_host + '/support/reinstall_routines',
     'update_habridge': ff_host + '/support/habridge/config'
 }
 

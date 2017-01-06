@@ -97,6 +97,11 @@
         $http.get('/reinstall_devices', {timeout:5000})
       }
 
+      $scope.reinstallRoutines = function()
+      {
+        $http.get('/reinstall_routines', {timeout:5000})
+      }
+
       $scope.haBridgeUpdate = function()
       {
         $http.get('/update_habridge', {timeout:5000})
