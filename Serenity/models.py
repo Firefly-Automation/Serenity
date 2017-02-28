@@ -4,10 +4,10 @@ from hashlib import sha256
 from os import urandom
 
 from flask import request
-from flask.ext.security import RoleMixin, SQLAlchemyUserDatastore, Security, UserMixin
-from flask.ext.security.decorators import _get_unauthorized_response
-from flask.ext.security.forms import LoginForm
-from flask.ext.sqlalchemy import SQLAlchemy
+from flask_security import RoleMixin, SQLAlchemyUserDatastore, Security, UserMixin
+from flask_security.decorators import _get_unauthorized_response
+from flask_security.forms import LoginForm
+from flask_sqlalchemy import SQLAlchemy
 from flask_security import current_user
 from flask_security.utils import encrypt_password
 from wtforms import StringField

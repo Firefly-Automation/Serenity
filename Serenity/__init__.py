@@ -4,7 +4,7 @@ from flask import Flask
 from flask.ext.security import Security
 from werkzeug.contrib.fixers import ProxyFix
 
-from Firefly.const import SERENITY_CONFIG_SECTION, FIREFLY_CONFIG_SECTION, SERENITY_CONFIG_FILE
+from Serenity.const import SERENITY_CONFIG_SECTION, FIREFLY_CONFIG_SECTION, SERENITY_CONFIG_FILE
 
 app = Flask(__name__, static_url_path='')
 
