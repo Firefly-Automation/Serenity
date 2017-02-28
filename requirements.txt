@@ -1,7 +1,0 @@
-configparser
-Flask
-django-htmlmin
-flask_security
-flask_sqlalchemy
-bcrypt
-bs4
