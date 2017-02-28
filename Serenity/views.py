@@ -1,6 +1,6 @@
 from Serenity import app, API_PATHS
 from Serenity.serenity import firefly_get_request
-from flask.ext.security import login_required, current_user
+from flask_security import login_required, current_user
 from flask import render_template, send_from_directory, redirect
 
 from Serenity.models import set_user_theme

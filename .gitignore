@@ -5,3 +5,5 @@
 *.db
 
 .idea/*
+venv/*
+venv_serenity/*
